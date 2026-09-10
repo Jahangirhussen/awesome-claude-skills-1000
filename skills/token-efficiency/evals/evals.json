@@ -1,0 +1,61 @@
+{
+  "skill_name": "token-efficiency",
+  "evals": [
+    {
+      "id": 0,
+      "eval_name": "bump-timeout-agentic-edit",
+      "prompt": "In the repo at C:\\Projects\\tokenefficiency\\token-efficiency-workspace\\<RUN_DIR>\\sample-repo, bump DEFAULT_TIMEOUT in config.py to 30 and make sure nothing else needs updating for that to be safe. Tell me what you changed.",
+      "expected_output": "A single targeted edit to config.py, located via a search rather than a full read-from-top, with a short note on whether client.py's usage needed changes (it doesn't — it reads the config dict, not the constant directly) and no re-paste of the full file.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "eval_name": "find-todos-summarize",
+      "prompt": "In the repo at C:\\Projects\\tokenefficiency\\token-efficiency-workspace\\<RUN_DIR>\\sample-repo, find all TODO comments and give me a short summary of what's outstanding.",
+      "expected_output": "A short list of the 3 TODOs (client.py backoff, utils.py logging, utils.py chunk validation) found via a targeted search rather than reading every file top to bottom, without pasting full file contents back.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "quick-test-framework-question",
+      "prompt": "Quick one: does the repo at C:\\Projects\\tokenefficiency\\token-efficiency-workspace\\<RUN_DIR>\\sample-repo use pytest or unittest for its tests?",
+      "expected_output": "A one-line answer (pytest, based on README.md's `pytest` invocation and the bare `def test_...` functions with no unittest.TestCase) without a tour of both frameworks or restating the question.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "edit-then-verify-once",
+      "prompt": "In the repo at C:\\Projects\\tokenefficiency\\token-efficiency-workspace\\<RUN_DIR>\\sample-repo, change RETRY_COUNT in config.py to 5, update the test that asserts the old value, and run the test suite to confirm it passes.",
+      "expected_output": "Two targeted edits (config.py RETRY_COUNT, tests/test_config.py's retries assertion) and exactly one pytest run. Guardrail check: the verification run must actually happen and be reported honestly. Efficiency check: no re-reading either file after its edit to confirm the write landed, and no second pytest run after the first passes.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "eval_name": "explicit-depth-request",
+      "prompt": "Give me a thorough, detailed walkthrough of how the repo at C:\\Projects\\tokenefficiency\\token-efficiency-workspace\\<RUN_DIR>\\sample-repo wires config.py into client.py, including what would break if RETRY_COUNT were set to 0.",
+      "expected_output": "An actually detailed explanation — the user asked for depth, so brevity defaults do not apply (SKILL.md §6). Must cover the load_config -> ApiClient.__init__ -> self.config['retries'] path and that RETRY_COUNT=0 makes the request loop body never execute, so request() returns None without ever calling _send. Failure mode to catch: a clipped two-line answer that trades away the explicitly requested depth.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "eval_name": "no-redundant-reread",
+      "prompt": "In the repo at C:\\Projects\\tokenefficiency\\token-efficiency-workspace\\<RUN_DIR>\\sample-repo, tell me the value of MAX_CONNECTIONS, then tell me which function in that same file consumes it.",
+      "expected_output": "Both answers (20; load_config) from a single look at config.py — the second question is answerable from what the first already put in context. Failure mode to catch: reading config.py a second time to answer the follow-up.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "eval_name": "nondev-plan-decision",
+      "prompt": "I'm choosing between two internet plans. Plan A: $50/month, 300 Mbps, unlimited data, 12-month contract with $120 early-exit fee. Plan B: $38/month, 100 Mbps, 1TB data cap ($10 per extra 100GB), no contract. I work from home doing video calls and my household streams maybe 400GB a month. Which one should I get?",
+      "expected_output": "A decision-first answer: leads with the recommendation and the one or two decision-relevant numbers (400GB is well under the 1TB cap; 100 Mbps is plenty for calls + streaming, so B saves $144/year). No exhaustive feature table, no restating the whole prompt back. A one-line caveat about when A would win (e.g. if usage grows past the cap) is fine and welcome.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "eval_name": "nondev-terms-worry-summary",
+      "prompt": "Read C:\\Projects\\tokenefficiency\\token-efficiency-workspace\\<RUN_DIR>\\docs\\saas-terms.md — it's the terms of service for a tool my small business is about to sign up for. Anything in there I should worry about?",
+      "expected_output": "Leads with the worry list (the 15-day-notice unilateral price increase clause §4.3, and the 30-days-after-lapse data deletion with no export grace period §8.2), each with a one-line why-it-matters, then notes the rest is standard. Failure modes: a section-by-section retelling of the whole document, or burying the two real issues mid-summary.",
+      "files": ["docs/saas-terms.md"]
+    }
+  ]
+}
