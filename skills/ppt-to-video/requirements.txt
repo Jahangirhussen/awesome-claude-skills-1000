@@ -1,0 +1,5 @@
+google-genai
+python-pptx
+faster-whisper
+yt-dlp
+pytest
