@@ -7,6 +7,52 @@ A curated, deduplicated, quality-audited collection of Claude Code skills (1,351
 - Original builds: `seo-master` (33 SEO categories, ~190 skills), `master-auto-orchestrator` (routes any task to the right skills), `master-skills` (library index + imports), `erp-saas-analytics-visualization`, `universal-development-planner`, `human-writing-mode`, `originality-guard`, `docs-pdf-clean-output`.
 - Quality: each skill scored with a 100-point structural rubric; average 84.5; see `skills/master-skills/QUALITY-AUDIT/`.
 
+## One-click setup
+Installs **both parts** (all 1,351 skills) and enables auto-routing. Needs only Git and Claude Code. It overwrites same-name skills in `~/.claude/skills` and appends two short rule blocks to `~/.claude/CLAUDE.md` (backup `CLAUDE.md.bak`; set `SKIP_RULES=1` to skip the rules).
+
+macOS / Linux / Git Bash:
+```bash
+curl -fsSL https://raw.githubusercontent.com/Jahangirhussen/awesome-claude-skills-1000/main/install.sh | bash
+```
+Windows PowerShell:
+```powershell
+irm https://raw.githubusercontent.com/Jahangirhussen/awesome-claude-skills-1000/main/install.ps1 | iex
+```
+Then restart Claude Code. Read the script first if you like: [install.sh](install.sh), [install.ps1](install.ps1).
+
+## What is in this repo
+Library is split in two repos: Part 1 = [awesome-claude-skills-1000](https://github.com/Jahangirhussen/awesome-claude-skills-1000), Part 2 = [awesome-claude-skills-part2](https://github.com/Jahangirhussen/awesome-claude-skills-part2).
+This repo: **Part 1 (awesome-claude-skills-1000)**, 557 skill folders (`a11y-audit` to `linkedin-profile`). Full per-skill list with score and source: [SKILLS-TABLE.md](SKILLS-TABLE.md).
+
+Scores are /100 from a heuristic structure rubric (not human review). Sub category exists mainly for SEO; other domains are flat.
+
+| Skill Category | Sub Category | Skills in this repo | Avg Score /100 | Skill files incl. nested |
+|---|---|---:|---:|---:|
+| 01-DEVELOPMENT | general | 47 | 83 | 47 |
+| 02-BUSINESS-SYSTEMS | accounting | 10 | 83 | 10 |
+| 02-BUSINESS-SYSTEMS | business-automation | 66 | 84 | 66 |
+| 02-BUSINESS-SYSTEMS | crm | 8 | 84 | 8 |
+| 02-BUSINESS-SYSTEMS | ecommerce | 2 | 85 | 2 |
+| 02-BUSINESS-SYSTEMS | hr | 18 | 84 | 19 |
+| 02-BUSINESS-SYSTEMS | saas | 4 | 89 | 4 |
+| 02-BUSINESS-SYSTEMS | wordpress | 7 | 79 | 7 |
+| 03-AI | general | 42 | 85 | 43 |
+| 04-RESEARCH | general | 64 | 87 | 66 |
+| 05-SEO | general | 4 | 87 | 4 |
+| 06-MARKETING | general | 46 | 84 | 46 |
+| 07-DATA | general | 20 | 87 | 20 |
+| 08-DEVOPS | general | 23 | 86 | 23 |
+| 09-SECURITY | general | 27 | 86 | 27 |
+| 10-TESTING | general | 26 | 85 | 26 |
+| 11-DESIGN | general | 71 | 84 | 71 |
+| 12-AUTOMATION | general | 4 | 87 | 4 |
+| 13-PRODUCT | general | 21 | 83 | 21 |
+| 14-DOCUMENTATION | general | 15 | 85 | 16 |
+| 15-SUPPORT | general | 14 | 85 | 14 |
+| 99-UNCLASSIFIED | general | 18 | 72 | 17 |
+| **Total** | | **557** | **84** | **561** |
+
+
 ## Setup (for anyone)
 
 **Requirements:** [Claude Code](https://docs.claude.com/en/docs/claude-code) installed, Git. Nothing else is needed for the skills themselves.
