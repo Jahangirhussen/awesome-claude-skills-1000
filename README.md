@@ -2,10 +2,11 @@
 
 A curated, deduplicated, quality-audited collection of Claude Code skills (1,351 skills across 15 domains) plus a few original builds.
 
-- `skills/` : part 1 of the library (a11y-audit to linkedin-profile, 557 folders). Part 2 (linkedin-skills to zero-hallucination-coder, 558 folders): https://github.com/Jahangirhussen/awesome-claude-skills-part2
+- `skills/` : Part 1 = SEO, development and all non-agent skills (962 folders). Part 2 (all agent skills): https://github.com/Jahangirhussen/awesome-claude-skills-part2
 - Split in two repos so GitHub can list every folder (limit 1000 items per folder).
 - Original builds: `seo-master` (33 SEO categories, ~190 skills), `master-auto-orchestrator` (routes any task to the right skills), `master-skills` (library index + imports), `erp-saas-analytics-visualization`, `universal-development-planner`, `human-writing-mode`, `originality-guard`, `docs-pdf-clean-output`.
 - Quality: each skill scored with a 100-point structural rubric; average 84.5; see `skills/master-skills/QUALITY-AUDIT/`.
+
 
 ## One-click setup
 Installs **both parts** (all 1,351 skills) and enables auto-routing. Needs only Git and Claude Code. It overwrites same-name skills in `~/.claude/skills` and appends two short rule blocks to `~/.claude/CLAUDE.md` (backup `CLAUDE.md.bak`; set `SKIP_RULES=1` to skip the rules).
@@ -22,35 +23,39 @@ Then restart Claude Code. Read the script first if you like: [install.sh](instal
 
 ## What is in this repo
 Library is split in two repos: Part 1 = [awesome-claude-skills-1000](https://github.com/Jahangirhussen/awesome-claude-skills-1000), Part 2 = [awesome-claude-skills-part2](https://github.com/Jahangirhussen/awesome-claude-skills-part2).
-This repo: **Part 1 (awesome-claude-skills-1000)**, 557 skill folders (`a11y-audit` to `linkedin-profile`). Full per-skill list with score and source: [SKILLS-TABLE.md](SKILLS-TABLE.md).
+This repo: **Part 1 (awesome-claude-skills-1000)**, 962 skill folders (SEO, development, business systems, data, marketing, design, security, testing and everything that is not an agent skill). Full per-skill list with score and source: [SKILLS-TABLE.md](SKILLS-TABLE.md).
 
 Scores are /100 from a heuristic structure rubric (not human review). Sub category exists mainly for SEO; other domains are flat.
 
 | Skill Category | Sub Category | Skills in this repo | Avg Score /100 | Skill files incl. nested |
 |---|---|---:|---:|---:|
-| 01-DEVELOPMENT | general | 47 | 83 | 47 |
-| 02-BUSINESS-SYSTEMS | accounting | 10 | 83 | 10 |
-| 02-BUSINESS-SYSTEMS | business-automation | 66 | 84 | 66 |
-| 02-BUSINESS-SYSTEMS | crm | 8 | 84 | 8 |
-| 02-BUSINESS-SYSTEMS | ecommerce | 2 | 85 | 2 |
-| 02-BUSINESS-SYSTEMS | hr | 18 | 84 | 19 |
-| 02-BUSINESS-SYSTEMS | saas | 4 | 89 | 4 |
-| 02-BUSINESS-SYSTEMS | wordpress | 7 | 79 | 7 |
-| 03-AI | general | 42 | 85 | 43 |
-| 04-RESEARCH | general | 64 | 87 | 66 |
-| 05-SEO | general | 4 | 87 | 4 |
-| 06-MARKETING | general | 46 | 84 | 46 |
-| 07-DATA | general | 20 | 87 | 20 |
-| 08-DEVOPS | general | 23 | 86 | 23 |
-| 09-SECURITY | general | 27 | 86 | 27 |
-| 10-TESTING | general | 26 | 85 | 26 |
-| 11-DESIGN | general | 71 | 84 | 71 |
-| 12-AUTOMATION | general | 4 | 87 | 4 |
-| 13-PRODUCT | general | 21 | 83 | 21 |
-| 14-DOCUMENTATION | general | 15 | 85 | 16 |
-| 15-SUPPORT | general | 14 | 85 | 14 |
-| 99-UNCLASSIFIED | general | 18 | 72 | 17 |
-| **Total** | | **557** | **84** | **561** |
+| 01-DEVELOPMENT | general | 85 | 83 | 85 |
+| 02-BUSINESS-SYSTEMS | accounting | 14 | 85 | 14 |
+| 02-BUSINESS-SYSTEMS | business-automation | 100 | 85 | 100 |
+| 02-BUSINESS-SYSTEMS | crm | 14 | 86 | 14 |
+| 02-BUSINESS-SYSTEMS | ecommerce | 5 | 81 | 5 |
+| 02-BUSINESS-SYSTEMS | hr | 22 | 84 | 22 |
+| 02-BUSINESS-SYSTEMS | saas | 11 | 85 | 11 |
+| 02-BUSINESS-SYSTEMS | shopify | 1 | 85 | 1 |
+| 02-BUSINESS-SYSTEMS | woocommerce | 6 | 82 | 6 |
+| 02-BUSINESS-SYSTEMS | wordpress | 35 | 81 | 35 |
+| 03-AI | general | 37 | 85 | 37 |
+| 04-RESEARCH | general | 121 | 87 | 125 |
+| 05-SEO | 33 parent categories | 1 | 90 | 179 |
+| 05-SEO | general | 6 | 87 | 6 |
+| 06-MARKETING | general | 70 | 84 | 70 |
+| 07-DATA | general | 39 | 87 | 39 |
+| 08-DEVOPS | general | 47 | 85 | 47 |
+| 09-SECURITY | general | 57 | 86 | 57 |
+| 10-TESTING | general | 50 | 84 | 50 |
+| 11-DESIGN | general | 109 | 84 | 109 |
+| 12-AUTOMATION | general | 7 | 89 | 7 |
+| 13-PRODUCT | general | 41 | 83 | 42 |
+| 14-DOCUMENTATION | general | 38 | 83 | 38 |
+| 15-SUPPORT | general | 14 | 87 | 14 |
+| 99-UNCLASSIFIED | general | 31 | 52 | 20 |
+| Library index | domains 01-15 + imports | 1 | 85 | 60 |
+| **Total** | | **962** | **84** | **1193** |
 
 
 ## Setup (for anyone)

@@ -1,0 +1,245 @@
+# Installed skills in 02-BUSINESS-SYSTEMS
+
+## accounting
+- `capacity-planner` - Use when an ops leader (Director of CX, Head of Support, VP Ops, Head of BizOps, Head of IT ops, Head of Finan
+- `cfo-advisor` - Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strat
+- `cfo-review` - /cs:cfo-review <plan> — Numerate-skeptic interrogation of any plan that touches money. Unit economics, runway,
+- `chief-customer-officer-advisor` - Chief Customer Officer advisory for startups: retention decomposition (gross retention vs NRR honesty, churn r
+- `confluence-expert` - Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures s
+- `etetoolkit` - Analyze, manipulate, compare, annotate, and visualize phylogenetic or other hierarchical trees with ETE 4. Use
+- `finance-skills` - Router/index for the 2 finance skills bundled in this plugin: financial-analyst (ratio analysis, DCF valuation
+- `financial-analyst` - Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction 
+- `fintech-advisor` - Strategic advisory for fintech founders on US/EU regulatory triggers, license-vs-partner, KYC/AML, and embedde
+- `invoice-organizer` - Categorize invoices and receipts by vendor, expense, and tax bucket, detect duplicates, and produce a tax-read
+- `pydicom` - Use pydicom to read, inspect, write, transform, and safely preflight local DICOM datasets and pixel data. Appl
+- `research-finance` - Use when managing the money for an internal R&D program or portfolio — building a multi-period program budget 
+- `spinning-up-deep-rl` - Knowledge base from \"Spinning Up in Deep RL\" by Joshua Achiam (OpenAI, MIT-licensed). Use when applying Achi
+- `usfiscaldata` - Query the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use for national
+
+## business-automation
+- `aims-audit` - /cs:aims-audit <scope> — ISO/IEC 42001 AIMS internal-audit 6-question forcing interrogation. Use before certif
+- `analytics-strategy` - Design measurement frameworks including event taxonomy, KPI hierarchy, dashboard architecture, attribution mod
+- `animated-component-libraries` - Pre-built animated React component collections combining Magic UI (150+ TypeScript/Tailwind/Motion components)
+- `ar-status` - Show experiment dashboard with results, active loops, and progress. Use when the user runs /ar:ar-status or as
+- `arboreto` - Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3).
+- `board` - Read, write, and browse the AgentHub message board for agent coordination. Use when the user runs /hub:board o
+- `board-deck-builder` - Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use wh
+- `board-meeting` - Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context lo
+- `board-prep` - Board meeting preparation for the adversarial scenario, not the friendly one. Forces numbers-cold mastery, ant
+- `boardroom` - /cs:boardroom <brief> — 6-phase multi-role deliberation across the C-suite with Phase 2 isolation, critic pre-
+- `brag-slim` - Turn a project directory or a website URL into a short, shareable launch video with music, motion, and share c
+- `brainstorm-okrs` - OKR brainstorming and validation using the Radical Focus framework — outcome objectives, measurable key result
+- `brief` - /cs:brief <topic> — Generate a one-page strategy brief from an office-hours intake. First step in the strategi
+- `business-intelligence` - Business intelligence across dashboard design, visualization, and reporting automation. Use when designing das
+- `business-investment-advisor` - Business investment analysis and capital allocation advisor. Use when evaluating whether to invest in equipmen
+- `business-name-fit` - Suggest, pick, or vet a business, startup, or product name that stays true to the founder's cultural origin wh
+- `business-operations-skills` - Use when running, diagnosing, or designing internal business operations — process documentation, vendor SLAs, 
+- `c-level-agents` - Founder-mode executive team. 13 cs-* C-suite agents (CFO, CMO, CRO, CPO, COO, CHRO, CISO, GC, CDO, CAIO, CCO, 
+- `c-level-skills` - Index and router for the C-level advisory bundle: 33 skills covering 14 C-suite roles, orchestration, cross-cu
+- `calendar-prep` - Generate one-page meeting briefings from structured input (attendees, prior context, decisions needed). Use be
+- `ce-compound-refresh` - Refresh the repo's captured learnings against the current codebase. Use when auditing stale, overlapping, supe
+- `ce-strategy` - Create or update STRATEGY.md. Use when starting a product, adding a strategy doc, or changing direction or roa
+- `ceo-advisor` - Executive leadership guidance for strategic decision-making, organizational development, and stakeholder manag
+- `challenge` - Pre-mortem plan analysis. Imagine the plan failed 12 months from now and work backwards to find the weaknesses
+- `chief-of-staff` - C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board 
+- `cmo-advisor` - Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocatio
+- `cmo-review` - /cs:cmo-review <plan> — Narrative-first interrogation of positioning, ICP, message house, and channel mix. Use
+- `codebase-onboarding` - Analyze a codebase and generate onboarding documentation for engineers, tech leads, and contractors. Fast fact
+- `commercial-forecaster` - Use when building a quarterly bookings forecast, ARR projection, pipeline forecast, NRR projection, or commit/
+- `company-os` - The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating 
+- `consciousness-council` - Run a multi-perspective Mind Council deliberation on any question, decision, or creative challenge. Use this s
+- `content-strategy` - Develop a content strategy covering editorial positioning, content pillars, formats, calendar, governance, and
+- `coo-advisor` - Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling p
+- `cpo-advisor` - Product leadership for scaling companies. Product vision, portfolio strategy, product-market fit, and product 
+- `cpo-review` - /cs:cpo-review <plan> — JTBD-driven interrogation of product roadmap, PMF signal, and portfolio focus. Use whe
+- `creative-brief-selector` - Produce a creative brief grounded in live reference sites and deliberately distinct from existing demos, for a
+- `cro-advisor` - Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net reve
+- `cross-eval` - /cs:cross-eval <memo> — Multi-model consensus on a board memo or strategy brief. Claude + Codex + Gemini cross
+- `cs-onboard` - Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for init
+- `cto-advisor` - Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when
+- `cto-review` - /cs:cto-review <plan> — Architecture and scaling interrogation. Tech debt, scaling cliffs, team scaling, build
+- `decide` - /cs:decide <memo> — Log a decision to two-layer memory via decision-logger. Approved memo becomes durable; raw
+- `decision-logger` - Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved deci
+- `dependency-map` - Cross-team dependency tracking with critical path analysis and Mermaid dependency graphs for program coordinat
+- `detour-onboarding` - Complete onboarding guide for developers who are new to Detour, the open-source deferred deep linking SDK by S
+- `doc-drift-detector` - Detect documentation drift against code changes, score staleness, validate API docs via AST parsing, and audit
+- `documentation-strategy` - Design and run a documentation system for a team or product. Use this skill when planning what to document, ch
+- `domain-strategy` - Plan, manage, and optimize a domain portfolio. Use this skill for DNS architecture decisions, redirect strateg
+- `embedded-iot-mentor` - Mentor for embedded and IoT hardware projects. Helps select MCUs, dev boards, and toolchains, decides where se
+- `executive-mentor` - Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetin
+- `feature-flag-strategy` - PM-facing playbook for phased rollouts with feature flags -- taxonomy (release / experiment / ops / permission
+- `form-strategy` - Design forms that convert, validate well, resist spam, and integrate cleanly with downstream systems. Use this
+- `founder-coach` - Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, del
+- `founder-mode` - /cs:founder-mode <question> — Auto-routes any founder question to the right C-role advisor or to /cs:boardroom
+- `free-tool-strategy` - When the user wants to build a free tool for marketing — lead generation, SEO value, or brand awareness. Use w
+- `freeze` - /cs:freeze <decision> <days> — Lock a strategic decision for a cooldown period to prevent impulse reversal. Mi
+- `genomic-coordinates` - Convert genomic intervals between coordinate conventions, normalise and compare variant representations, and d
+- `geomaster` - Comprehensive geospatial science skill covering remote sensing, GIS, spatial analysis, machine learning for ea
+- `gtm-strategy` - Integrated go-to-market strategy spanning ICP, motion, channels, messaging, success metrics, and launch plan. 
+- `healthtech-advisor` - Strategic advisory for digital health founders on HIPAA scope, FDA SaMD classification, EHR integration, and p
+- `hyperframes-studio` - Use when working with a person on a HyperFrames project in Studio: first, whether their message asks for a cha
+- `intl-expansion` - International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, a
+- `jira-expert` - Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows,
+- `knowledge-ops` - Use when a Head of Ops, Knowledge Manager, or TPM-Internal needs to author, validate, or clean up company SOPs
+- `launch-strategy` - When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the use
+- `linear-expert` - Linear expert for workspace/team admin, Cycles, Projects, Initiatives, Roadmaps, GraphQL API queries, triage w
+- `linkedin-strategy` - Use when someone needs a LinkedIn plan rather than a post — content pillars, positioning for a career change o
+- `ma-playbook` - M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal struct
+- `marketing-strategy-pmm` - Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Use whe
+- `mediation-analysis` - Dispute analysis and mediation preparation framework. Use when preparing for mediation, analyzing disputes, ca
+- `memory-status` - Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations. Use wh
+- `metrics-dashboard` - Design a product metrics dashboard — North Star, input metrics, and guardrails — that a team actually uses to 
+- `migrate-to-detour` - Use when the user mentions migrating deep links, switching away from Branch or AppsFlyer, replacing their deep
+- `notion-pm` - Notion expert for product management workflows. Use for database design for PRDs/OKRs/Roadmaps/Decisions, prop
+- `office-hours` - /cs:office-hours <topic> — YC-style 6-question founder interrogation before any advice. Forces clarity on prob
+- `okr-design` - OKR design as actually shipped, not as conference-talk theory. Outcome statements that drive decisions, key re
+- `omc-doctor` - Diagnose and fix oh-my-claudecode installation issues
+- `onboard` - /cs:onboard — Founder interview that populates ~/.claude/company-context.md using the canonical 7-dimension cs
+- `onboarding-wizard-design` - Designing first-run product onboarding wizards that get users to the ah-ha moment without overwhelming them. S
+- `openpiv` - Particle Image Velocimetry (PIV) analysis with OpenPIV. Use when extracting velocity fields from PIV image pai
+- `operations-manager` - Operations management across process optimization, efficiency, and continuous improvement. Use when designing 
+- `paid-media-strategy` - A discipline for running paid media that does not light money on fire. Hypothesis writing for paid spend, chan
+- `planning-with-files-es` - Planificación persistente basada en archivos para tareas multipaso de agentes de IA. Mantiene task_plan.md, fi
+- `pm-onboarding` - 30-60-90 day plan for a new PM joining a company or team, grounded in Michael Watkins' First 90 Days framework
+- `porters-five-forces` - Porter's Five Forces — analyze the competitive intensity and attractiveness of an industry. Use when evaluatin
+- `pricing-strategy` - Design, optimize, and communicate SaaS pricing — tier structure, value metrics, pricing pages, and price incre
+- `process-mapper` - Use when a BizOps lead, COO, or process-improvement owner needs to document an end-to-end business process (pr
+- `procurement-optimizer` - Use when running an annual SaaS audit, doing category-level spend review, or rationalizing the supplier base —
+- `productboard-expert` - Productboard expert for workspace setup, Insight-to-Feature triage, Driver scoring, Releases, Roadmap views, a
+- `proptech-advisor` - Strategic advisory for proptech founders on real-estate segments, MLS/brokerage models, licensing, and busines
+- `pufferlib` - Version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, PuffeRL tra
+- `qutip` - Simulate and audit closed and open quantum-system models with QuTiP 5, including deterministic, trajectory, st
+- `rfp-responder` - Use when an RFP, RFI, RFQ, security questionnaire, vendor questionnaire, or proposal request arrives and the t
+- `rive-interactive` - State machine-based vector animation with runtime interactivity and web integration. Use this skill when creat
+- `scaffold-exercises` - Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use
+- `scvelo` - RNA velocity analysis with scVelo. Estimate cell state transitions from unspliced/spliced mRNA dynamics, infer
+- `site-onboarding` - Use when the user says 'get started with my site', 'connect to my wordpress site', 'what can you do on my site
+- `skill-doctor` - Use when the user wants their agent setup graded from real conversation history, asks which installed skills a
+- `stakeholder-communication` - Communicate effectively with stakeholders across functions and seniority levels. Use this skill when writing s
+- `stale-content-detector` - Use when the user says 'find old content', 'what is stale', 'what needs refreshing', or 'what should i archive
+- `status-update-generator` - Generate weekly executive status updates from Jira/Linear data exports. Produces a structured "highlights / bl
+- `stock-analysis` - Produce a rigorous, sector-relative, multi-factor fundamental analysis of a publicly listed company — Indian (
+- `swot-analysis` - SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) for strategic positioning. Use when assessing a 
+- `team` - N coordinated agents on shared task list using Claude Code implicit agent teams
+- `team-onboarding-playbook` - Design a structured onboarding experience that gets new team members productive in 30, 60, and 90 days. Use wh
+- `tech-debt-tracker` - Scan codebases for technical debt with AST parsing, prioritize by impact, and generate trend dashboards. Use w
+- `theme-factory` - Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing page
+- `uncertainty-and-units` - Track physical units and propagate measurement uncertainty in scientific calculations using pint and uncertain
+- `vendor-due-diligence` - Assess IT vendors and third-party partners with multi-factor risk scoring and regulatory compliance checklists
+- `vendor-evaluation` - Evaluate, select, and contract with vendors and SaaS tools. Use this skill when comparing alternatives, runnin
+- `vendor-management` - Use when reviewing, scoring, or auditing third-party SaaS / vendor relationships — running a vendor scorecard 
+- `wizard` - Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provision
+- `wrap-up` - Close out a launched Claude Managed Agent — recap every primitive the founder now owns, regenerate the single-
+
+## crm
+- `account-executive` - Sales execution across pipeline, discovery, demos, negotiation, and closing. Use when qualifying opportunities
+- `channel-economics` - Use when reviewing or rebalancing direct vs. partner-led channel economics — computing fully-loaded cost-to-se
+- `competitive-intel` - Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and CPO roadmap decisions. Use whe
+- `customer-feedback-triage` - Inbound customer-feedback triage system. Categorize, deduplicate, score, and respond to feature requests from 
+- `customer-success-manager` - Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring m
+- `deal-desk` - Use when reviewing a specific inbound deal before close — when sales has asked for a discount that exceeds AE 
+- `edtech-advisor` - Strategic advisory for edtech founders on FERPA/COPPA compliance, K-12 vs higher-ed vs L&D dynamics, district 
+- `lead-researcher` - Qualify and prioritize sales leads against an ICP, score lead lists, and draft personalized outreach hooks. Us
+- `revenue-operations` - Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS rev
+- `sales-engineer` - Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-
+- `sales-operations` - Sales operations across CRM, analytics, territory planning, and compensation. Use when building pipeline repor
+- `salesforce-developer` - Writes and debugs Apex code, builds Lightning Web Components, optimizes SOQL queries, implements triggers, bat
+- `timesfm-forecasting` - Zero-shot time series forecasting with Google's TimesFM foundation model. Use for any univariate time series (
+- `user-feedback-aggregation` - Collecting and synthesizing user feedback across channels (support tickets, NPS, in-app feedback, sales calls,
+
+## ecommerce
+- `ar-resume` - Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating. Use when
+- `ecommerce-advisor` - Strategic advisory for e-commerce founders on unit economics, fulfillment models, payments, and channel strate
+- `marketplace-advisor` - Strategic advisory for two-sided marketplace founders on chicken-and-egg, take rates, liquidity, and network e
+- `media-use` - Agent Media OS for a HyperFrames project. Resolve BGM, SFX, image, icon, brand logo, voice, color grade, or LU
+- `product-configurator-design` - Designing build-your-own product configurators (Tesla-style, custom-pricing, plan-builders) with constraint lo
+- `vertical-site-conventions` - Compose pages and sites that read as their vertical: ecommerce-catalog storefronts that look like storefronts,
+
+## hr
+- `adversarial-reviewer` - Adversarial code review that breaks the self-review monoculture. Use when you want a genuinely critical review
+- `arquiteto-de-empresa` - Company Architect: builds a business from scratch as an OKF (Open Knowledge Format) bundle — a tree of version
+- `beta-program` - Closed beta program playbook covering recruitment, success criteria, communication cadence, and beta-to-GA exi
+- `boost-asio-pro` - Use when writing or reviewing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP se
+- `change-management` - Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, c
+- `chro-advisor` - People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and ret
+- `culture-architect` - Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/v
+- `customer-interview-script` - Run high-signal customer discovery interviews using a scripted question hierarchy, behavior-over-opinion probe
+- `deep-interview` - Socratic deep interview with mathematical ambiguity gating before explicit execution approval
+- `depmap` - Query the Cancer Dependency Map (DepMap) for cancer cell line gene dependency scores (CRISPR Chronos), drug se
+- `full-page-screenshot` - Use when the user asks to capture a full-page screenshot, long screenshot, or complete page capture of a web p
+- `grill-me` - Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each bra
+- `hr-business-partner` - HR business partnership across talent strategy, org development, and employee relations. Use when building wor
+- `hyperframes-registry` - Search, install, and wire registry blocks and components into HyperFrames compositions. Use BEFORE hand-buildi
+- `inbox-setup` - One-time setup skill that builds a personalized inbox triage knowledge base via interactive interview. Intervi
+- `interview` - Phase 1 of building a Claude Managed Agent — interview the founder about the one job the agent should do, then
+- `interview-synthesis` - Customer interview synthesis: raw transcripts to themed insights, an opportunity solution tree, and follow-up 
+- `interview-system-designer` - This skill should be used when the user asks to "design interview processes", "create hiring pipelines", "cali
+- `omc-plan` - Strategic planning with optional interview workflow
+- `org-health-diagnostic` - Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on 
+- `people-analytics` - People analytics across workforce metrics, predictive modeling, and employee insights. Use when building turno
+- `pm-career-ladder` - PM career ladder rubrics from APM through VP/CPO across product sense, execution, leadership, strategy, and co
+- `pm-interview-prep` - Structured PM interview preparation across product sense, execution, strategy, behavioral, and technical round
+- `talent-acquisition` - Talent acquisition across recruiting strategy, sourcing, interviews, and hiring analytics. Use when writing jo
+- `to-spec` - Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synt
+
+## saas
+- `contract-review` - Contract review assistant analyzing agreements against playbooks. GREEN/YELLOW/RED severity. Use when reviewin
+- `dependency-management` - Manage third-party libraries, runtimes, and SaaS dependencies. Use this skill when setting an update cadence, 
+- `general-counsel-advisor` - General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sh
+- `onboarding-cro` - When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-valu
+- `paywall-upgrade-cro` - When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. A
+- `saas-kickoff` - ALWAYS use automatically whenever the user asks to build, create, start, plan, or resume any SaaS, web app, su
+- `saas-metrics-coach` - SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn
+- `saas-scaffolder` - Generate SaaS boilerplate with auth, database schemas, Stripe billing, multi-tenancy, API routes, and dashboar
+- `senior-pm` - Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in port
+- `signup-flow-cro` - When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use wh
+- `stripe-integration-expert` - Implement Stripe integrations for SaaS billing: subscriptions, checkout, proration, usage- based billing, idem
+
+## shopify
+- `shopify-expert` - Builds and debugs Shopify themes (.liquid files, theme.json, sections), develops custom Shopify apps (shopify.
+
+## woocommerce
+- `respira-woocommerce` - Use for WooCommerce operations on a WordPress site. Listing, reading, creating, updating, and duplicating prod
+- `woo-agent-storefront` - Use when the user says 'make my store visible to chatgpt', 'set up product feeds', or 'make my store agent-rea
+- `woo-catalog-perfection` - Use when the user says 'fix my catalog for ai', 'improve my ai readiness score', 'get my catalog to 90', or 'm
+- `woo-marketing-campaigns` - Use when the user says 'plan a campaign', 'promote this product', 'write the copy for our sale', 'what should 
+- `woo-pricing-promotions` - Use when the user says 'run a sale', 'discount this category', 'set up a coupon', 'reprice these products', 'e
+- `woocommerce-health-check` - Use when the user says 'why is my checkout broken', 'audit my woocommerce store', 'cart problems woocommerce',
+
+## wordpress
+- `build-oxygen6-page` - Use when building or rebuilding a page, header, footer, or template on an Oxygen 6 (Jenga) site, or when a pre
+- `figma-to-bricks` - Use when the user says 'figma to bricks', 'build this figma design in bricks', or hands over a Figma frame to 
+- `figma-to-divi` - Use when the user says 'figma to divi', 'build this figma design in divi', or hands over a Figma frame to rebu
+- `figma-to-elementor` - Use when the user says 'figma to elementor', 'build this figma design in elementor', or hands over a Figma fra
+- `figma-to-gutenberg` - Use when the user says 'figma to gutenberg', 'figma to blocks', or hands over a Figma frame to rebuild on a Wo
+- `html-to-breakdance` - Use when the user says 'convert this html to breakdance' or 'paste html into breakdance', or has a Webflow, Fr
+- `html-to-bricks` - Use when the user says 'convert this html to bricks' or 'paste html into bricks', or has a Webflow, Framer, Co
+- `migrate-beaver-builder-to-bricks` - Use when the user says 'migrate beaver builder to bricks', 'convert bb to bricks', or 'replace beaver builder 
+- `migrate-beaver-builder-to-gutenberg` - Use when the user says 'migrate beaver builder to gutenberg', 'convert beaver builder to blocks', or 'move bea
+- `migrate-brizy-to-gutenberg` - Use when the user says 'migrate brizy to gutenberg', 'convert brizy to blocks', or 'replace brizy with native 
+- `migrate-divi-to-breakdance` - Use when the user says 'migrate divi to breakdance', 'convert divi to breakdance', or 'rebuild divi pages in b
+- `migrate-divi-to-bricks` - Use when the user says 'migrate divi to bricks', 'convert divi to bricks', or 'rebuild divi pages in bricks'. 
+- `migrate-divi-to-gutenberg` - Use when the user says 'migrate divi to gutenberg', 'convert divi to blocks', 'get off divi', or 'decommission
+- `migrate-elementor-to-breakdance` - Use when the user says 'migrate elementor to breakdance', 'convert elementor to breakdance', or 'rebuild eleme
+- `migrate-elementor-to-bricks` - Use when the user says 'migrate elementor to bricks', 'convert elementor to bricks', or 'move my site from ele
+- `migrate-elementor-to-gutenberg` - Use when the user says 'migrate elementor to gutenberg', 'convert elementor to blocks', 'remove the elementor 
+- `migrate-elementor-to-oxygen` - Use when the user says 'migrate elementor to oxygen', 'convert elementor to oxygen', or 'rebuild elementor pag
+- `migrate-oxygen-to-breakdance` - Use when the user says 'migrate oxygen to breakdance', 'convert oxygen to breakdance', or 'replace oxygen with
+- `migrate-oxygen-to-bricks` - Use when the user says 'migrate oxygen to bricks', 'convert oxygen to bricks', or 'replace oxygen with bricks'
+- `migrate-thrive-architect-to-gutenberg` - Use when the user says 'migrate thrive architect to gutenberg', 'convert thrive to blocks', or 'replace thrive
+- `migrate-visual-composer-to-gutenberg` - Use when the user says 'migrate visual composer to gutenberg', 'convert vc to blocks', or 'move visual compose
+- `migrate-wpbakery-to-bricks` - Use when the user says 'migrate wpbakery to bricks', 'convert visual composer to bricks', or wants to moderniz
+- `migrate-wpbakery-to-gutenberg` - Use when the user says 'migrate wpbakery to gutenberg', 'remove wpbakery', 'get rid of visual composer', or 'd
+- `onekgpd` - Query the 1000 Genomes Project dataset (3,202 whole-genome-sequenced individuals, GRCh38) at the level of indi
+- `respira-builder-edits` - Use for any in-page content edit on a WordPress site with a page builder. Covers finding elements, applying su
+- `respira-setup-assistant` - Use when the user says 'set up respira', 'respira not connecting', 'check my respira connection', or 'fix resp
+- `respira-site-audit` - Use when asked to audit, score, or health-check a WordPress site or page. Runs SEO, AEO, readability, accessib
+- `strategic-alignment` - Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goa
+- `technical-debt-audit` - Use when the user says 'clean up my wordpress', 'what is bloating my wordpress', 'find orphaned shortcodes', o
+- `wordpress-ai-image-optimizer` - Use when the user says 'optimize my wordpress images with ai', 'compress and optimize all images', 'audit my m
+- `wordpress-elementor-dev` - Expert WordPress and Elementor Pro development skill. Use this whenever the user asks about WordPress theme de
+- `wordpress-mcp-dev` - Build and maintain modern WordPress plugins and MCP servers, including hybrid WordPress+MCP products. Use when
+- `wordpress-pro` - Develops custom WordPress themes and plugins, creates and registers Gutenberg blocks and block patterns, confi
+- `wordpress-site-dna` - Use when the user says 'analyze my wordpress site', 'what is running on my site', 'site dna', or 'what plugins
+- `wp-performance-review` - WordPress performance code review and optimization analysis. Use when reviewing WordPress PHP code for perform
+
