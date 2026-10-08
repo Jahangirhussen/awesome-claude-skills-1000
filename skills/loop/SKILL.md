@@ -120,3 +120,23 @@ When user runs `/ar:loop stop {experiment}`:
 - **3-day auto-expiry**: CronCreate jobs expire after 3 days. For longer experiments, the user must re-run `/ar:loop` to restart. Results persist — the new loop picks up where the old one left off.
 - **One loop per experiment**: Don't start multiple loops for the same experiment.
 - **Concurrent experiments**: Multiple experiments can loop simultaneously ONLY if they're on different git branches (which they are by default — each experiment gets `autoresearch/{domain}/{name}`).
+
+## Purpose
+Start an autonomous experiment loop at a chosen interval.
+
+## When to use
+Recurring autonomous iteration is wanted.
+
+## When NOT to use
+- One-shot experiments.
+
+## Inputs
+Interval and experiment.
+
+## Validation
+- Schedule created; first run logged.
+
+## Example
+```text
+loop 1h autoresearch run.
+```

@@ -74,3 +74,8 @@ Load the reference that matches the task — keep this file lean and pull detail
 | `execution/create-prd/` | Ideas -> PRD | Validated ideas become PRD inputs with problem statement and success metrics |
 | `execution/brainstorm-okrs/` | OKRs -> Ideas | Team OKRs define the target outcomes that frame ideation sessions |
 | `execution/prioritization-frameworks/` | Ideas -> Prioritization | Scored ideas feed into RICE or other frameworks for backlog ordering |
+
+## Example
+```text
+Opportunity: reduce onboarding time -> ideas ranked by desirability, feasibility, viability.
+```

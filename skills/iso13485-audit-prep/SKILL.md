@@ -155,3 +155,17 @@ python ../../skills/compliance-os/scripts/audit_simulator.py iso13485_scope.json
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+ISO 13485 QMS audit readiness through a six-question interrogation.
+
+## When NOT to use
+- Certification consulting guarantees.
+
+## Edge cases and failure handling
+- Evidence missing -> gap list.
+
+## Example
+```text
+Clause-by-clause: scope, risk, controls, evidence, nonconformities, management review.
+```

@@ -1060,3 +1060,19 @@ app.assets.load(asset);
 ---
 
 **Related Skills**: For lower-level WebGL control, reference threejs-webgl. For React integration patterns, see react-three-fiber. For physics-heavy simulations, reference babylonjs-engine.
+
+## Purpose
+Build browser games and 3D apps with the PlayCanvas engine (entity-component, WebGL/WebGPU).
+
+## When NOT to use
+- Heavy React-driven 3D (react-three-fiber).
+- Native game engines.
+
+## Validation
+- Scene renders at target FPS on target devices; no console errors; assets load.
+
+## Output requirements
+Working scene/project with notes on performance.
+
+## Related skills
+threejs-webgl, babylonjs-engine

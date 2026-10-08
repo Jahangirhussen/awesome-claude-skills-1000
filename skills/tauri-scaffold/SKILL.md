@@ -68,3 +68,17 @@ tauri scaffold, create-tauri-app, project structure, static export, ssg
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Scaffold Tauri v2 projects: structure and frontend static-export configuration.
+
+## Inputs
+A Tauri v2 project (Rust backend + web frontend).
+
+## Example
+```text
+Scaffold with Next.js static export, set `frontendDist`, build and run.
+```
+
+## Related skills
+tauri-config, tauri-security, tauri-ipc, tauri-build

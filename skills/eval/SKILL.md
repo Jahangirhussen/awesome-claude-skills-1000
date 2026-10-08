@@ -78,3 +78,25 @@ python {skill_path}/scripts/session_manager.py --update {session-id} --state eva
    - Ranked results with winner highlighted
    - Next step: `/hub:merge` to merge the winner
    - Or `/hub:merge {session-id} --agent {winner}` to be explicit
+
+## Purpose
+Evaluate and rank AgentHub agent results by metric or LLM judge.
+
+## When to use
+The user runs /hub:eval or asks to score, compare or pick a winning agent.
+
+## When NOT to use
+- No session or no agent results yet.
+
+## Inputs
+Session id, metric command or judge rubric.
+
+## Edge cases and failure handling
+- Metric command fails for an agent -> mark as failed, rank the rest.
+- Ties -> use secondary criterion or judge.
+
+## Validation
+- Every agent scored or marked failed; ranking reproducible.
+
+## Related skills
+hub-init, merge, board

@@ -115,3 +115,20 @@ Loop the findings back into the negotiation-points table above before the next c
 - `references/due-diligence-checklist.md` — comprehensive DD checklist by domain
 - `../general-counsel-advisor/SKILL.md` — term sheet analyzer + contract risk scanner
 - `../chief-data-officer-advisor/SKILL.md` — data diligence + data-asset valuation
+
+## Purpose
+M&A strategy: due diligence, valuation, integration, deal structure.
+
+## When NOT to use
+- Legal/tax advice.
+
+## Inputs
+Deal context and financials.
+
+## Edge cases and failure handling
+- Missing financials -> list diligence requests.
+
+## Example
+```text
+Acquire a $2M ARR competitor: diligence list, valuation range, integration plan.
+```

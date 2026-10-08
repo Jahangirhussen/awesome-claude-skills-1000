@@ -108,3 +108,28 @@ python ../../../c-level-advisor/skills/cro-advisor/scripts/churn_analyzer.py
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Pipeline-paranoid review of revenue plan: coverage, win rate, NRR, ramp time, discounts, source mix.
+
+## When to use
+Forecast misses coverage, win rates drop, or before scaling the sales team.
+
+## When NOT to use
+- Marketing positioning -> cmo-review.
+- Deal-level coaching.
+
+## Inputs
+Pipeline, win-rate, NRR, ramp and discount data.
+
+## Edge cases and failure handling
+- Data missing -> list required inputs.
+- Healthy topline hiding weak source -> decompose.
+
+## Validation
+- Each of the six questions answered with data or flagged.
+
+## Example
+```text
+Coverage 2.1x vs 3x target -> pipeline gap and actions.
+```

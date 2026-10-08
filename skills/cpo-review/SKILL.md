@@ -108,3 +108,24 @@ python product-team/skills/product-manager-toolkit/scripts/rice_prioritizer.py
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+JTBD-driven review of product roadmap, PMF signal and portfolio focus.
+
+## When NOT to use
+- Detailed feature specs.
+- Engineering estimates.
+
+## Inputs
+Roadmap, PMF/usage data, customer research.
+
+## Edge cases and failure handling
+- No PMF data -> flag as the first gap.
+
+## Validation
+- Each question answered with data or marked as a risk.
+
+## Example
+```text
+Roadmap of 12 features, one core job -> cut to 3 aligned to the primary JTBD.
+```

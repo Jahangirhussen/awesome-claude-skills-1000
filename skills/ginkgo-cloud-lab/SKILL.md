@@ -122,3 +122,17 @@ available, fetch https://arxiv.org/abs/2609.00065 (or
 http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take
 the author list, year, and version from that record. If the record lists a journal reference
 or publisher DOI, cite the published version instead.
+
+## When to use
+Submitting and managing protocols on Ginkgo Bioworks Cloud Lab.
+
+## When NOT to use
+- Wet-lab work done locally.
+
+## Edge cases and failure handling
+- Protocol validation errors -> fix parameters before resubmitting.
+
+## Example
+```text
+Submit a plate-reader protocol with 96 samples and check run status.
+```

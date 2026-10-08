@@ -56,3 +56,26 @@ See [references/companion_tooling.md](references/companion_tooling.md). Tools: e
 
 **Version:** 1.0.0
 **Derived:** Matt Pocock (MIT) + this repo's wrapper
+
+## Purpose
+Interview the user relentlessly about a plan or design.
+
+## When to use
+User asks to be grilled.
+
+## When NOT to use
+- Immediate implementation.
+
+## Inputs
+The plan.
+
+## Edge cases and failure handling
+- Facts available in repo -> look up instead of asking.
+
+## Validation
+- Frontier empty and decisions recorded.
+
+## Example
+```text
+Grill the migration plan.
+```

@@ -67,3 +67,17 @@ tauri store, key-value, persistence, local storage
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Guide Tauri v2 store plugin: key-value persistence and lazy loading.
+
+## Inputs
+A Tauri v2 project (Rust backend + web frontend).
+
+## Example
+```text
+Create a store file, set and get a key, reload the app and confirm persistence.
+```
+
+## Related skills
+tauri-config, tauri-security, tauri-ipc, tauri-build

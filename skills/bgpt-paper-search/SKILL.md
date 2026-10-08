@@ -73,3 +73,33 @@ The server returns structured results including:
 - **Free tier**: 50 searches per network, no API key required
 - **Paid**: $0.01 per result with an API key from [bgpt.pro/mcp](https://bgpt.pro/mcp)
 
+## When NOT to use
+- General web search or abstract-only literature lookups.
+- Tasks without the BGPT MCP server configured.
+
+## Inputs
+A research question or query; BGPT MCP server configured; optional filters (year, study type).
+
+## Core workflow
+1. Confirm BGPT MCP is configured (see Setup).
+2. Search with specific experimental terms.
+3. Read structured fields (methods, sample size, results, quality score).
+4. Compare studies and cite them.
+
+## Edge cases and failure handling
+- No results -> broaden terms, drop filters.
+- Free-tier limits reached -> see Pricing; batch queries.
+
+## Validation
+- Each cited paper has its fields (methods, n, result) recorded; claims match the extracted data.
+
+## Output requirements
+Table of papers with key fields and a short synthesis with citations.
+
+## Example
+```text
+Query "CRISPR off-target sequencing sample size" -> table of studies with n and effect sizes.
+```
+
+## Related skills
+literature-review, paper-lookup, citation-management

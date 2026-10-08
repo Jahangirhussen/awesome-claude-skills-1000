@@ -39,3 +39,34 @@ See [references/companion_tooling.md](references/companion_tooling.md). Tools: t
 
 **Version:** 1.0.0
 **Derived:** Matt Pocock (MIT) + this repo's wrapper
+
+## When NOT to use
+- The user wants a background agent launched -> claude-handoff.
+- Work is complete.
+
+## Inputs
+Conversation, referenced artifacts, optional focus text.
+
+## Core workflow
+1. Create the file with `mktemp -t handoff-XXXXXX.md` and read it before writing.
+2. Summarise goal, done, remaining, decisions.
+3. Reference PRDs, plans, ADRs, issues, commits by path/URL; do not copy.
+4. Suggest skills for the next session.
+
+## Edge cases and failure handling
+- Sensitive data in context -> redact.
+- Nothing left to do -> say so instead of fabricating tasks.
+
+## Validation
+- No duplicated artifact content; path printed; next agent can start from the file alone.
+
+## Output requirements
+Path to the handoff document.
+
+## Example
+```text
+Handoff doc: Goal, Done, Next steps, Links to PRD-12 and PR #88, Suggested skills.
+```
+
+## Related skills
+claude-handoff, ce-handoff

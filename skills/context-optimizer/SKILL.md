@@ -77,3 +77,23 @@ Fix:
 1. Manual `/compact`
 2. If still bad: new session with `/resume`
 3. For recurring issues: reduce CLAUDE.md size, disable MCPs
+
+## Purpose
+Reduce token use and context degradation in long sessions.
+
+## Inputs
+Current session state and size.
+
+## Validation
+- Context size reduced and the task still has what it needs.
+
+## Example
+```text
+Summarise finished subtasks, drop tool dumps, keep the plan and open questions.
+```
+
+## Related skills
+token-efficiency, memory-status
+
+## When to use
+Sessions feel slow, context is degraded, or budget is running out.

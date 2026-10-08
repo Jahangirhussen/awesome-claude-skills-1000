@@ -403,3 +403,15 @@ This skill includes helpful templates and documentation:
 - The **algorithm is where to create** something unique
 - Don't copy the flow field example - build what the philosophy demands
 - But DO keep the exact UI structure and Anthropic branding from the template
+
+## Purpose
+Create algorithmic art with p5.js using seeded randomness.
+
+## When to use
+Users want generative art or interactive parameter exploration.
+
+## Edge cases and failure handling
+- Performance lag -> reduce particle count.
+
+## Validation
+- Same seed reproduces the same image.

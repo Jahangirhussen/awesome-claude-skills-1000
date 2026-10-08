@@ -690,3 +690,18 @@ This skill includes:
 - **animated-component-libraries** - Pre-built components that may include Lottie animations
 - **threejs-webgl** - For 3D animations beyond Lottie's 2D capabilities
 - **react-three-fiber** - Alternative for complex 3D animated scenes
+
+## When NOT to use
+- Simple CSS transitions.
+
+## Inputs
+Lottie JSON or After Effects export, target framework.
+
+## Core workflow
+1. Export/obtain Lottie JSON.
+2. Load with lottie-web or lottie-react.
+3. Control play/segments.
+4. Optimize file size and test performance.
+
+## Validation
+- Animation plays smoothly; file size within budget.

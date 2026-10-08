@@ -92,3 +92,23 @@ After routing, fork to the sub-skill with: the goal string, `agent_name`,
 - `scripts/goal_state.py` — own `goal.json` (init/set/status/advance).
 - `scripts/goal_router.py` — goal → lane (exit 0 route / 3 ask / 4 refuse).
 - `scripts/loop_compiler.py` — goal+phase → `plan.v1` execution shape.
+
+## When to use
+Building, launching, grading or scheduling a Claude Managed Agent in the user's account.
+
+## When NOT to use
+- Agents on other platforms.
+
+## Inputs
+Agent goal, Anthropic API key (BYOK), rubric.
+
+## Edge cases and failure handling
+- Phase unknown -> start at interview/build sheet.
+
+## Validation
+- Each phase's artifact exists before moving on.
+
+## Example
+```text
+"Build me a morning report agent" -> interview -> launch -> grade -> schedule.
+```

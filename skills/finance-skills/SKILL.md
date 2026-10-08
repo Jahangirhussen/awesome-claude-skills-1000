@@ -49,3 +49,24 @@ python3 finance/skills/saas-metrics-coach/scripts/metrics_calculator.py --help
 
 - Route to exactly one skill, then follow that skill's workflow. This router ships no tools of its own.
 - Always validate financial outputs against the user's source data; outputs are analysis support, not investment advice.
+
+## Purpose
+Router for the finance skills (financial-analyst, saas-metrics-coach).
+
+## When to use
+Ratio analysis, DCF, budget variance, forecasts, or SaaS metrics (ARR/MRR, churn, CAC/LTV, NRR).
+
+## When NOT to use
+- Dashboards/charts -> erp-saas-analytics-visualization.
+- Legal/tax advice.
+
+## Inputs
+Financial statements or SaaS metrics data.
+
+## Edge cases and failure handling
+- Missing data -> list required inputs.
+
+## Example
+```text
+"Analyze these financials" -> financial-analyst.
+```

@@ -85,3 +85,14 @@ Load the reference that matches the task — keep this file lean and pull detail
 | `release-manager` | Release process triggers runbook execution checkpoints | Release tags and changelogs feed into runbook staleness checks; release gates reference runbook pre-deployment checklists |
 | `env-secrets-manager` | Runbook commands reference env vars managed by secrets tooling | Secret names and vault paths flow into runbook env var references; rotation schedules inform runbook update cadence |
 | `changelog-generator` | Post-deployment runbook steps cross-reference changelog entries | Changelog diffs help identify which runbook steps need re-verification after a release |
+
+## Purpose
+Generate operational runbooks from codebase analysis.
+
+## When NOT to use
+- Policy documents.
+
+## Example
+```text
+Runbook: deploy, rollback, DB failover with copy-paste commands.
+```

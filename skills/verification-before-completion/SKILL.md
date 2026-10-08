@@ -118,3 +118,17 @@ Skip any step = lying, not verifying
 - Paraphrases and synonyms
 - Implications of success
 - ANY communication suggesting completion/correctness
+
+## When to use
+About to claim work is done, fixed or passing.
+
+## When NOT to use
+- Exploratory chat with no claim.
+
+## Inputs
+The claim and the commands that prove it.
+
+## Example
+```text
+Claim "tests pass" -> run the test command and show the result.
+```

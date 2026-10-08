@@ -92,3 +92,9 @@ Load the reference that matches the task — keep this file lean and pull detail
 
 **Last Updated:** June 2026
 **Version:** 1.1.0
+
+## Purpose
+Productionize ML: deployment, feature stores, drift monitoring, MLOps, LLM integration.
+
+## When NOT to use
+- Exploratory analysis (senior-data-scientist).

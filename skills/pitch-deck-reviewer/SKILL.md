@@ -107,3 +107,17 @@ Stages: `seed` (default), `series-a`.
 - **Order matters.** Most decks under-invest in problem framing and the "why now" slide.
 - **Don't ship 30+ slides.** A seed deck is 10-12 slides; a Series A deck is 12-15.
 - **Demo is not the deck.** Decks introduce; demos persuade. Plan both.
+
+## Purpose
+Score a pitch deck against YC, Sequoia and a16z heuristics.
+
+## When to use
+Before sending a deck to investors.
+
+## When NOT to use
+- Building the deck.
+
+## Example
+```text
+Deck scores 6/10: weak market slide, missing traction chart.
+```

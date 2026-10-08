@@ -36,3 +36,28 @@ Use this skill to ship production-grade WordPress plugins, MCP servers, or both 
 - WordPress plugin architecture and security sections: `references/full-guide.md`
 - MCP server design, transport, and tooling sections: `references/full-guide.md`
 - Lifecycle, testing, and distribution checklists: `references/full-guide.md`
+
+## Purpose
+Build and maintain WordPress plugins and MCP servers, including hybrid products.
+
+## When NOT to use
+- Theme-only work.
+- Site content editing.
+
+## Inputs
+Plugin requirements, WordPress version, MCP tool specs.
+
+## Edge cases and failure handling
+- Capability checks missing -> add before exposing MCP tools.
+- Plugin conflicts -> test with default theme.
+
+## Output requirements
+Plugin/MCP code with activation tested.
+
+## Example
+```text
+Plugin exposing "list_orders" as an MCP tool with capability checks.
+```
+
+## Related skills
+wordpress-pro, mcp-builder

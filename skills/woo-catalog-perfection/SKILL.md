@@ -76,3 +76,17 @@ Close with: score before → after, products fixed per check type, what was writ
 - Never fabricate GTINs, specs, materials, dimensions or certifications. Uncertain = ask or queue.
 - Batches of 10 with a re-score between batches, so a bad pattern is caught after 10 products, not 500.
 - Every write goes through the add-on's snapshot envelope; mention rollback in the final report.
+
+## Purpose
+Improve WooCommerce catalog data so products pass AI/agent readiness and merchant feeds.
+
+## When NOT to use
+- Non-WooCommerce stores.
+
+## Edge cases and failure handling
+- Missing identifiers (GTIN) -> flag per product, never fabricate.
+
+## Example
+```text
+Products rejected for missing brand/GTIN -> list and fix attributes.
+```

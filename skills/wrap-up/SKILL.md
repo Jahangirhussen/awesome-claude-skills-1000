@@ -61,3 +61,33 @@ and name the next 1–2 upgrades so the founder leaves with a clear roadmap. The
 - `scripts/primitives_inventory.py` — recap every owned primitive.
 - `scripts/overview_page.py` — regenerate single-file agent-overview.html.
 - `scripts/upgrade_suggester.py` — next 1–2 upgrades with mechanisms.
+
+## Purpose
+Close out a launched Claude Managed Agent: recap what was built, regenerate the overview page, suggest next steps.
+
+## When to use
+The agent has launched and the founder needs the final recap.
+
+## When NOT to use
+- Before launch -> stage-launch.
+- Ongoing scheduling -> run-without-you.
+
+## Inputs
+Launched agent artifacts and build sheet.
+
+## Edge cases and failure handling
+- Missing artifact -> list what is missing in the recap.
+
+## Validation
+- Overview page regenerated and opens; all primitives listed.
+
+## Output requirements
+Recap plus single-file overview page and next-step suggestions.
+
+## Example
+```text
+Recap: agent id, tools, schedule, rubric result; next: monitor weekly.
+```
+
+## Related skills
+stage-launch, grade-iterate, run-without-you

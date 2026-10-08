@@ -1074,3 +1074,24 @@ img.addEventListener('error', () => {
 - **babylonjs-engine**: Alternative 3D engine with different architecture
 - **gsap-scrolltrigger**: For animating A-Frame entities with GSAP
 - **react-three-fiber**: React approach to Three.js (compare with A-Frame's HTML approach)
+
+## Purpose
+Build browser 3D/VR/AR experiences with A-Frame entity-component HTML.
+
+## When NOT to use
+- Complex games (PlayCanvas/Babylon).
+
+## Inputs
+Scene requirements and target devices.
+
+## Core workflow
+1. Create the scene with `<a-scene>`.
+2. Add entities and components.
+3. Write custom components if needed.
+4. Test in browser and headset.
+
+## Validation
+- Scene loads at target FPS; controllers/gaze work.
+
+## Output requirements
+Working A-Frame page.

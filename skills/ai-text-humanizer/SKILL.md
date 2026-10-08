@@ -46,3 +46,35 @@ python scripts/check_humanize.py "<path_to_text_file_or_inline_text>"
 ```
 
 Script flags: banned words found, sentence-length variance (too uniform = robotic), forced-triad patterns, excess em-dash/colon/bullet density. Fix flagged issues, don't just report them.
+
+## Purpose
+Rewrite AI-sounding text into natural human writing.
+
+## When to use
+The user asks to humanize, personalize or de-AI a text.
+
+## When NOT to use
+- Facts need to change (this only changes style).
+- Content meant to deceive about authorship in contexts that forbid it.
+
+## Inputs
+The text and target voice or audience.
+
+## Core workflow
+1. Read the text and find banned words and patterns.
+2. Rewrite for rhythm, concreteness and plain verbs.
+3. Remove filler, inflated claims, forced triads.
+4. Run the validation script for long-form output.
+5. Check meaning is unchanged.
+
+## Edge cases and failure handling
+- Technical content loses precision -> keep terms exact.
+- Still sounds robotic after rewrite -> vary sentence length and add specifics.
+
+## Example
+```text
+"In today's fast-paced world, leveraging synergies..." -> "We cut the process from five steps to two."
+```
+
+## Related skills
+content-humanizer, copy-editing

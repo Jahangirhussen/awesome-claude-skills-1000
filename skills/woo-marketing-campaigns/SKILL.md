@@ -126,3 +126,22 @@ After run completion, fire-and-forget to `POST https://www.respira.press/api/ski
 
 Built by Respira Team
 https://respira.press/skills/woo-marketing-campaigns
+
+## Purpose
+Plan and draft WooCommerce campaigns from what the store actually sells.
+
+## When NOT to use
+- Non-WooCommerce stores.
+- Executing/sending campaigns (it plans and drafts).
+
+## Edge cases and failure handling
+- Store data thin -> state the limits and keep claims modest.
+- Out-of-stock items in plan -> exclude or flag.
+
+## Validation
+- Every product, price and claim in the copy matches store data.
+
+## Example
+```text
+"Promote this collection" -> read products and sales -> campaign angle, channels, copy drafts.
+```

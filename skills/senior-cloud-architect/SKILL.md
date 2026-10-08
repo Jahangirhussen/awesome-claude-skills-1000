@@ -1,6 +1,6 @@
 ---
 name: senior-cloud-architect
-description: 
+description: Cloud architecture across AWS, GCP and Azure: VPC/compute/database topologies, cost optimization, disaster recovery, security posture audits. Use for cloud infrastructure design or review. Not for application code or CI/CD pipelines (senior-devops).
 license: MIT + Commons Clause
 metadata:
   version: 1.1.0
@@ -78,3 +78,21 @@ Load the reference that matches the task — keep this file lean and pull detail
 | `aws-solution-architect` | AWS-specific deep dives complement multi-cloud strategy | Cloud platform comparison → AWS implementation details |
 | `ra-qm-team/soc2-compliance` | Compliance requirements shape infrastructure security controls | Compliance matrices → IAM policies, encryption configs, audit logging |
 | `senior-fullstack` | Fullstack application stacks deploy onto cloud infrastructure | Application stack definitions → ECS/EKS task definitions, RDS configs |
+
+## Purpose
+Expert cloud architecture and infrastructure design across AWS, GCP and Azure.
+
+## When NOT to use
+- Application-level code.
+- CI/CD pipeline authoring -> senior-devops.
+
+## Validation
+- Design covers networking, compute, data, security, DR and cost; assumptions and limits listed.
+
+## Example
+```text
+3-tier web app on AWS: VPC with private subnets, ALB, ECS, RDS Multi-AZ, S3, CloudFront; RPO/RTO stated.
+```
+
+## Related skills
+aws-solution-architect, gcp-cloud-architect, azure-cloud-architect, senior-devops

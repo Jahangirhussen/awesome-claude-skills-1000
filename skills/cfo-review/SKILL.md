@@ -103,3 +103,23 @@ The numerate skeptic stress-tests anything that touches money. Six questions bef
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Numerate-skeptic review of any plan that touches money: unit economics, runway, dilution, capital allocation.
+
+## When NOT to use
+- Accounting or bookkeeping tasks.
+
+## Inputs
+The plan and financial numbers.
+
+## Edge cases and failure handling
+- Numbers missing -> list required inputs.
+
+## Validation
+- Unit economics, runway and dilution are computed, not asserted.
+
+## Example
+```text
+Hiring 5 engineers -> runway drops from 18 to 11 months; condition: revenue milestone.
+```

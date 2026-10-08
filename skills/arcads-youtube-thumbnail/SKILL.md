@@ -55,3 +55,12 @@ Generate click-worthy YouTube thumbnails via Arcads Nano Banana 2.
 ## Aspect Ratio
 
 `16:9` for YouTube thumbnails (1280×720px standard)
+
+## Purpose
+Generate YouTube thumbnails (incl. A/B variants) with Arcads Nano Banana 2.
+
+## When NOT to use
+- Video generation.
+
+## Output requirements
+Thumbnail images (variants) and the prompts used.

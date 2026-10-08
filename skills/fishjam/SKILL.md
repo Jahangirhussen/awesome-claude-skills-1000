@@ -29,3 +29,36 @@ A production Fishjam app always has **a backend (server SDK) + a client (client 
 - Management token **never** leaves the backend. If it leaks, regenerate it from the Dashboard.
 - Peer tokens are valid for **24 hours from creation**. The token is consumed during the initial WS handshake; an established session keeps running on its own. If the peer hasn't connected yet or needs to _reconnect_ after 24h, call `refreshPeerToken` / `refresh_peer_token` to mint a new one.
 - Sandbox API URLs are dev-only. Anyone holding one can create rooms on your account — never ship in a production client build.
+
+## Purpose
+Router for Software Mansion Fishjam (hosted WebRTC: video, audio, livestreaming): points to the platform reference and the right SDK sub-skill.
+
+## When to use
+Writing, reviewing or debugging any code that talks to a Fishjam instance (Node/Python backend, React web, React Native client).
+
+## When NOT to use
+- Other WebRTC providers or self-hosted media servers.
+- Generic React/React Native work with no Fishjam calls.
+
+## Core workflow
+1. Read `references/platform/SKILL.md` for rooms, peers, tracks, tokens, notifications.
+2. Pick the SDK sub-skill from the routing table (server JS/Python, React client, React Native client).
+3. Follow the critical rules in that sub-skill before writing code.
+
+## Edge cases and failure handling
+- Mixing sandbox and production credentials -> check `sandbox-vs-production` in the platform reference.
+- Notifier vs webhook confusion -> see `notifier-vs-webhook`.
+
+## Validation
+- Room/peer/token lifecycle matches the lifecycle reference; auth tokens are minted server-side; a test room joins and publishes a track.
+
+## Output requirements
+Working integration code plus notes on credentials, room type and notification handling.
+
+## Example
+```text
+Livestream site -> platform reference -> room types -> server SDK creates room and peer token -> React client joins.
+```
+
+## Related skills
+react-native-best-practices

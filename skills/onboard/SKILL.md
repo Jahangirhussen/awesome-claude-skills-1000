@@ -124,3 +124,26 @@ By default, `~/.claude/company-context.md` is local to the founder's machine. To
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Founder interview that fills the company-context file using the 7-dimension schema.
+
+## When to use
+First command to run for the cs agents.
+
+## When NOT to use
+- Context already complete.
+
+## Inputs
+Founder answers.
+
+## Edge cases and failure handling
+- Unknown answer -> record as TBD.
+
+## Validation
+- All seven dimensions populated.
+
+## Example
+```text
+/cs:onboard -> asks about company, stage, market, team, finances, goals, constraints.
+```

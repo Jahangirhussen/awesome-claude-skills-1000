@@ -40,3 +40,22 @@ Follow the Android reference for commands and required inputs.
 - **`release-app`** — higher-level skill for submission. Use release-app for automated submission; use mobile-store-upload-cli for manual CLI-first workflows.
 - **`release-preflight`** — verify the build before upload. Preflight catches signing and version issues before upload.
 - **`store-console-playbooks`** — review store listing metadata while waiting for upload processing to complete.
+
+## When to use
+Manual CLI uploads of iOS builds to TestFlight and Android builds to Google Play.
+
+## When NOT to use
+- CI/CD fully automated with fastlane or Expo EAS.
+- Store listing metadata and review submission.
+
+## Edge cases and failure handling
+- Signing/provisioning errors -> verify certificates and profiles before upload.
+- Upload rejected -> read the validation message and fix.
+
+## Output requirements
+Uploaded build identifiers and processing status.
+
+## Example
+```text
+Archive Release scheme, validate IPA, upload to TestFlight; build AAB, upload to internal track.
+```

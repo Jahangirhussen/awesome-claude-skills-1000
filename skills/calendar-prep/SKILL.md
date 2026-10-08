@@ -104,3 +104,23 @@ python scripts/meeting_prep_briefer.py meeting_input.json --json
 - **Front-load the decision.** The first sentence should be the decision you want.
 - **Read the briefing.** Generating one without reading it is performance theater.
 - **Capture outputs.** Pair with `personal-productivity/meeting-insights/` post-meeting to convert the briefing's questions into the meeting's decisions.
+
+## Purpose
+Generate one-page meeting briefings from structured input.
+
+## When to use
+Before customer calls, board meetings or high-stakes meetings.
+
+## When NOT to use
+- Scheduling meetings.
+
+## Edge cases and failure handling
+- Missing attendee context -> mark unknown.
+
+## Validation
+- Briefing fits one page and states the decision needed.
+
+## Example
+```text
+Customer call: attendees, history, goal, risks, ask.
+```

@@ -102,3 +102,17 @@ The biggest risk in approved decisions is forgetting why someone disagreed. When
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Log a decision to two-layer memory (durable decision + raw transcript).
+
+## When NOT to use
+- Undecided discussions.
+
+## Edge cases and failure handling
+- Dissent present -> record it.
+
+## Example
+```text
+/cs:decide memo.md
+```

@@ -257,3 +257,20 @@ MaterialApp(
 - **`integration-testing-dart`** — **DISAMBIGUATION**: integration-testing-dart covers multi-module Dart integration test patterns. flutter-integration-testing is Flutter-specific widget integration testing. Use flutter-integration-testing for Flutter widget tests; use integration-testing-dart for Dart module integration tests.
 - **`test-driven-development`** — use TDD for integration test implementation.
 - **`testing-anti-patterns`** — audit for mocking errors after integration tests pass.
+
+## Purpose
+Write Flutter integration and widget tests for real component interactions.
+
+## When NOT to use
+- Pure unit tests of logic.
+
+## Inputs
+Flutter app and the flows to test.
+
+## Output requirements
+Runnable test files.
+
+## Example
+```text
+Pump app with ProviderScope, tap login, expect home screen.
+```

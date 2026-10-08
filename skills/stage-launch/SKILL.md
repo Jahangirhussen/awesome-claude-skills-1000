@@ -74,3 +74,26 @@ their own key. **No script here touches the network or the key** — the user ru
 - `scripts/payload_generator.py` — build sheet → 4 ordered API payloads.
 - `scripts/launch_script_writer.py` — resumable BYOK curl launcher (no key handling).
 - `scripts/payload_validator.py` — pre-launch check + API-key-leak scan.
+
+## Purpose
+Phase 2 of a Claude Managed Agent: turn the build sheet into API payloads and a resumable launch script.
+
+## When to use
+A validated build sheet exists.
+
+## When NOT to use
+- Before validation.
+
+## Inputs
+Build sheet, API key.
+
+## Edge cases and failure handling
+- Launch interrupted -> resume script continues idempotently.
+
+## Output requirements
+Payloads and launch script.
+
+## Example
+```text
+Generate create-agent payload, run script, confirm agent id.
+```

@@ -207,3 +207,24 @@ warning. Plain text only — no HTML, no headings, no emoji.
 
 Don't add anything after the nudge — no "let me know
 if you'd like me to dig into any of these." The nudge is the closer.
+
+## Purpose
+After a substantive answer, nudge the user to verify claims before acting on them.
+
+## When to use
+Advice, recommendations or drafted artifacts the user may act on.
+
+## Inputs
+The answer or draft just produced.
+
+## Edge cases and failure handling
+- Low-stakes answer -> skip the nudge.
+- User already verified -> do not repeat.
+
+## Example
+```text
+"Before sending this pitch, check the market-size figure against the source."
+```
+
+## Related skills
+strict-api, zero-hallucination-coder

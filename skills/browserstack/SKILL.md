@@ -175,3 +175,17 @@ For testing localhost or staging behind firewall:
 - Per-browser pass/fail status
 - Links to BrowserStack dashboard for video/screenshots
 - Any browser-specific failures highlighted
+
+## Purpose
+Run tests on BrowserStack across browsers and devices.
+
+## When to use
+Cross-browser/cloud testing is requested.
+
+## When NOT to use
+- Local-only tests.
+
+## Example
+```text
+Run Playwright suite on Chrome, Firefox, Safari matrix.
+```

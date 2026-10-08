@@ -82,3 +82,27 @@ Note: release management merged into `changelog-generator/` (version bumper + ho
 
 - Load only the specific skill SKILL.md you need
 - These are advanced skills — combine with engineering-team/ core skills as needed
+
+## When to use
+Browsing or choosing among 37 advanced engineering skills (agent design, RAG, MCP, platform operations, reliability).
+
+## When NOT to use
+- Routine engineering -> engineering-skills.
+- A known skill name.
+
+## Inputs
+The advanced engineering task.
+
+## Edge cases and failure handling
+- No match -> compose from two skills or general capability.
+
+## Output requirements
+The chosen skill's result.
+
+## Example
+```text
+"Design an MCP server" -> mcp-server-builder.
+```
+
+## Related skills
+engineering-skills, agent-designer, rag-architect

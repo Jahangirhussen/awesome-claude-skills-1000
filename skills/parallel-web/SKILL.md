@@ -143,3 +143,23 @@ available, fetch https://arxiv.org/abs/2609.00065 (or
 http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take
 the author list, year, and version from that record. If the record lists a journal reference
 or publisher DOI, cite the published version instead.
+
+## Purpose
+Use the Parallel CLI for web search, extraction, deep research and enrichment.
+
+## When to use
+Web search or structured enrichment is requested.
+
+## When NOT to use
+- Questions answerable offline.
+
+## Inputs
+Query or URLs.
+
+## Edge cases and failure handling
+- CLI missing -> install/auth or fall back to other search.
+
+## Example
+```text
+parallel search "SOC 2 timeline".
+```

@@ -214,3 +214,11 @@ Never block user flow on telemetry failure.
 
 Built by Respira Team
 https://respira.press/skills/figma-to-elementor
+
+## Purpose
+Rebuild a Figma frame as a WordPress page in Elementor.
+
+## Example
+```text
+Hero frame -> section with heading, text, button, image mapped to Elementor widgets/blocks.
+```

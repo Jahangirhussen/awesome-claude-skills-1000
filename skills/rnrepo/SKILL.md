@@ -26,3 +26,33 @@ Read the relevant reference for the topic at hand. All references are in `refere
 | `references/installation.md` | Setting up RNRepo for the first time — Expo CNG, standard React Native, Android Gradle, iOS CocoaPods |
 | `references/configuration.md` | Opting out specific libraries (denyList), disabling the plugin, Fingerprint config, GPG verification |
 | `references/troubleshooting.md` | Build failures, C++ debug/release mismatch, duplicate `.so` files, Xcode version issues, empty repository list, verifying the plugin works |
+
+## Purpose
+Integrate and troubleshoot RNRepo (pre-built React Native library artifacts) to cut native build times up to 2x.
+
+## When to use
+Setting up, configuring or troubleshooting RNRepo in a React Native project.
+
+## When NOT to use
+- Projects on the old architecture or unsupported RN versions.
+- JS-only build speed problems.
+
+## Inputs
+React Native version, Android/iOS build config, current build times.
+
+## Core workflow
+1. Check version and New Architecture support (Key facts).
+2. Add the Gradle plugin (Android) and CocoaPods plugin (iOS) per references.
+3. Run a clean build and compare times.
+4. Troubleshoot using the relevant file in `references/`.
+
+## Output requirements
+Configured project and before/after build times.
+
+## Example
+```text
+RN 0.79 app -> add plugins -> clean build drops from 12 to 7 minutes.
+```
+
+## Related skills
+react-native-best-practices, radon-mcp

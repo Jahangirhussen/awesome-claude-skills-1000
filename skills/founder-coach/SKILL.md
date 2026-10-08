@@ -298,3 +298,20 @@ Most founders are at Level 0. Level 2 is a reasonable target. Level 3 is a strat
 ## Detailed References
 - `references/leadership-growth.md` — Maxwell levels, situational leadership, founder-to-CEO transition
 - `references/founder-toolkit.md` — Weekly reflection, energy audit, delegation matrix, 1:1 templates
+
+## Purpose
+Leadership development for founders and first-time CEOs.
+
+## When to use
+Founder wants coaching on delegation, archetype, habits.
+
+## When NOT to use
+- Therapy or medical issues.
+
+## Validation
+- Actions are specific with dates.
+
+## Example
+```text
+Delegation matrix with three tasks to hand off this month.
+```

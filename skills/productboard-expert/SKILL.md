@@ -78,3 +78,9 @@ Load the reference that matches the task — keep this file lean and pull detail
 | `notion-pm/` | Productboard ↔ Notion | Roadmap embeds into Notion; deep PRDs live in Notion linked from Features |
 | `discovery/interview-synthesis/` | Bidirectional | Interview insights become Notes; high-evidence Features motivate interviews |
 | `business-growth/customer-success/` | CS → Productboard | CS is a primary Insight source via Salesforce / Intercom integration |
+
+## Inputs
+Workspace state and the Productboard task.
+
+## Validation
+- Changes verified in Productboard.

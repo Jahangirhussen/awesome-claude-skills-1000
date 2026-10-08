@@ -81,3 +81,12 @@ Load the reference that matches the task — keep this file lean and pull detail
 
 **Last Updated:** June 2026
 **Version:** 2.2.0
+
+## Purpose
+DevOps for CI/CD, containers, Kubernetes and Terraform.
+
+## When NOT to use
+- Application feature code.
+
+## Validation
+- Pipeline runs green; infra plan reviewed; rollback tested.

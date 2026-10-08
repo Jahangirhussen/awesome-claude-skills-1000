@@ -154,3 +154,17 @@ python ../../skills/compliance-os/scripts/audit_simulator.py fda_qsr_scope.json
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+FDA 21 CFR 820 (QSR/QMSR) audit readiness interrogation.
+
+## When NOT to use
+- Legal advice.
+
+## Edge cases and failure handling
+- Evidence missing -> record as gap.
+
+## Example
+```text
+Design controls: DHF complete? CAPA backlog? Complaint handling timelines?
+```

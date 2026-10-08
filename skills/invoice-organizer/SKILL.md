@@ -168,3 +168,24 @@ python scripts/invoice_categorizer.py receipts.csv --rules my-rules.json
 - Pairs with `finance/` skills for budgeting and forecasting
 - Feeds into `c-level-advisor/cs-cfo-advisor` cash-flow workflows
 - Used by solo-founder persona for monthly close
+
+## Purpose
+Categorize invoices and receipts and produce a tax-ready monthly summary.
+
+## When to use
+The user has invoices or receipts to organize.
+
+## When NOT to use
+- Tax advice.
+
+## Edge cases and failure handling
+- Duplicate invoice -> flag.
+- Missing vendor -> mark unknown.
+
+## Validation
+- Totals reconcile with source documents.
+
+## Example
+```text
+Folder of PDFs -> CSV by vendor/category + monthly total.
+```

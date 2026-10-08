@@ -136,3 +136,17 @@ python ../../skills/compliance-os/scripts/cross_framework_mapper.py program.json
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+ISO 27001 ISMS audit readiness through a six-question interrogation.
+
+## When NOT to use
+- Certification consulting guarantees.
+
+## Edge cases and failure handling
+- Evidence missing -> gap list.
+
+## Example
+```text
+Clause-by-clause: scope, risk, controls, evidence, nonconformities, management review.
+```

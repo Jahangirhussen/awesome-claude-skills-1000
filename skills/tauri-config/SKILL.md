@@ -67,3 +67,17 @@ tauri v2, tauri.conf.json, config, csp, plugins, android, ios
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Guide Tauri v2 `tauri.conf.json` structure, lifecycle and CSP.
+
+## Inputs
+Tauri v2 project config.
+
+## Example
+```text
+Set a CSP that allows only self and the API origin; confirm the app loads.
+```
+
+## Related skills
+tauri-security, tauri-build

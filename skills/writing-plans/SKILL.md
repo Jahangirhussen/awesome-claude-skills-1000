@@ -169,3 +169,11 @@ After saving the plan, offer execution choice:
 **If Inline Execution chosen:**
 - **REQUIRED SUB-SKILL:** Use superpowers:executing-plans
 - Batch execution with checkpoints for review
+
+## When to use
+A spec or requirements exist for a multi-step task and coding has not started.
+
+## Example
+```text
+Spec -> plan with tasks, files, tests, order.
+```

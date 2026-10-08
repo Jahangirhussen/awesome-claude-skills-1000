@@ -202,3 +202,16 @@ HEDGE
 • Contingency: [Plan B if it's wrong]
 • Early warning: [Leading indicator to watch — and at what threshold to act]
 ```
+
+## Purpose
+Stress-test the assumptions behind a business plan before betting on it.
+
+## When to use
+A plan rests on unvalidated assumptions.
+
+## When NOT to use
+- Plans already validated by data.
+- Execution questions.
+
+## Inputs
+The plan and its key assumptions.

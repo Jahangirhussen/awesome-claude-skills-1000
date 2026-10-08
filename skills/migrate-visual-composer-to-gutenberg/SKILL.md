@@ -276,3 +276,12 @@ Never block user flow on telemetry failure.
 
 Built by Respira Team
 https://respira.press/skills/migrate-visual-composer-to-gutenberg
+
+## When NOT to use
+- Sites not using Visual Composer.
+- Content-only edits.
+
+## Example
+```text
+Visual Composer hero row -> Group block with Heading, Paragraph, Buttons.
+```

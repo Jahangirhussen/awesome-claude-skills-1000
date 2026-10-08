@@ -223,3 +223,18 @@ place. If your platform provides a workspace-exit tool, use it.
 | "The merged-result failure is probably flaky" | A failing merged result stops everything. Branch and worktree stay put while you investigate. |
 | "The base branch is obviously main" | Confirm the fork point or ask. Merging into the wrong base is expensive to undo. |
 | "The push was rejected — force-push will fix it" | A rejected push means the remote moved. Investigate; force-push only on your human partner's explicit request. |
+
+## When to use
+Implementation is complete and tests pass; deciding how to integrate (merge, PR, cleanup).
+
+## When NOT to use
+- Tests failing.
+- Work still in progress.
+
+## Inputs
+The branch, test results, base branch.
+
+## Example
+```text
+Tests green -> options: merge locally / open PR / keep / discard -> chosen -> cleanup worktree.
+```

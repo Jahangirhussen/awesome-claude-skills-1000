@@ -53,3 +53,20 @@ git diff origin/main...HEAD
 - List of slop patterns found with file locations
 - Edits applied
 - One-line summary of what was cleaned
+
+## Purpose
+Remove AI-generated slop (unnecessary comments, over-engineering) from the current branch diff.
+
+## When NOT to use
+- Files outside the diff.
+
+## Inputs
+The branch diff.
+
+## Edge cases and failure handling
+- Comment documents a non-obvious why -> keep it.
+
+## Example
+```text
+Remove "// increment i" comments and an unused abstraction layer.
+```

@@ -69,3 +69,25 @@ If the uncertainty is too high to write correct code without guessing, say:
 - Related: `engineering/minimalist` — use together: minimalist reduces code volume; strict-api ensures what is written is correct.
 - Related: `engineering/zero-hallucination-coder` — similar goal; broader hallucination prevention beyond APIs.
 - Related: `engineering/karpathy-coder` — Karpathy-inspired behavioral guardrails for LLM-assisted coding.
+
+## When to use
+The user says "no hallucinations", "verify APIs", "reality check" or "don't invent functions".
+
+## When NOT to use
+- Brainstorming new APIs.
+- Pseudo-code explanations.
+
+## Inputs
+The code or request referencing APIs, imports or variables; access to the repo and dependency sources.
+
+## Edge cases and failure handling
+- Dependency source unavailable -> state the API is unverified and ask.
+- Version mismatch -> check the installed version.
+
+## Example
+```text
+Before calling `df.to_markdown()`, confirm pandas version and that tabulate is installed.
+```
+
+## Related skills
+zero-hallucination-coder, karpathy-guidelines

@@ -113,3 +113,20 @@ The dissent column from `/cs:boardroom` is the single most useful piece of organ
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Retrospective on an executed decision scored against original assumptions.
+
+## When NOT to use
+- Incident post-mortems (postmortem).
+
+## Edge cases and failure handling
+- Records of original assumptions missing -> note the gap.
+
+## Validation
+- Each assumption marked held/failed with evidence.
+
+## Example
+```text
+Decision to hire a VP Sales: assumptions vs outcomes.
+```

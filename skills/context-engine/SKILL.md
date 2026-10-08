@@ -91,3 +91,17 @@ Load the reference that matches the task — keep this file lean and pull detail
 | **observability-designer** | Observability Designer instruments context utilization metrics (relevance, staleness, cache hits); Context Engine exposes metric endpoints | Raw metric events flow from Context Engine; Observability Designer aggregates into dashboards and alerts |
 | **agent-workflow-designer** | Agent Workflow Designer defines multi-agent handoff sequences; Context Engine implements the shared context bus and handoff protocol | Workflow definitions specify which agents share context; Context Engine manages the context bus, serialization, and handoff payloads |
 | **codebase-onboarding** | Codebase Onboarding generates project summaries and architecture maps; Context Engine consumes these as Tier 0 bootstrap context | Onboarding artifacts (project summary, directory map, entry points) feed into Context Engine's initial knowledge graph and context tiers |
+
+## Purpose
+Context management for agent systems: memory, token budgets, retrieval.
+
+## When NOT to use
+- Simple chat usage.
+
+## Validation
+- Token budget respected; critical context preserved.
+
+## Example
+```text
+Allocate 60% task context, 25% retrieved docs, 15% history.
+```

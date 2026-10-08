@@ -64,3 +64,25 @@ print(resp.json())
 - [ ] No merged faces/features
 
 Regenerate up to 2x with refined prompts if issues found.
+
+## Purpose
+Generate Meta ad image creatives through the Arcads API (ChatGPT Image 2 or Nano Banana).
+
+## When to use
+The user wants ad images for Facebook/Instagram (product images, mockups, comparison tables).
+
+## When NOT to use
+- Video ads -> arcads-video.
+- Publishing ads -> arcads-meta-ad-builder.
+
+## Edge cases and failure handling
+- Model output has garbled text -> regenerate with shorter text or use the other model.
+- API error -> report the exact error.
+
+## Example
+```text
+Product shot with headline overlay for a skincare serum, 1080x1080.
+```
+
+## Related skills
+arcads-meta-ad-builder, arcads-video, nano-banana-image-ad

@@ -111,3 +111,17 @@ Suggest:
 - The fix applied (with diff)
 - Verification result (10/10 passes)
 - Prevention recommendation
+
+## Purpose
+Fix failing or flaky Playwright tests.
+
+## When to use
+Playwright tests fail or are flaky.
+
+## When NOT to use
+- Application bugs the tests correctly detect.
+
+## Example
+```text
+Flaky: replace fixed sleep with web-first assertion.
+```

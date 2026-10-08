@@ -182,3 +182,23 @@ You don't need all metrics to run a diagnostic. The tool handles partial data:
 ## References
 - `references/health-benchmarks.md` — benchmarks by stage (Seed, A, B, C)
 - `scripts/health_scorer.py` — CLI scoring tool with traffic light output
+
+## Purpose
+Cross-functional organization health check scored on eight dimensions.
+
+## When to use
+Quarterly org review or concern about execution.
+
+## When NOT to use
+- Individual performance reviews.
+
+## Inputs
+Signals from each function.
+
+## Validation
+- Each dimension scored with evidence.
+
+## Example
+```text
+Eight scores with the top two risks and actions.
+```

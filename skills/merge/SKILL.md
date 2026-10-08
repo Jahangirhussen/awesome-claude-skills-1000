@@ -92,3 +92,41 @@ Tell the user:
 - Losers archived with tags `hub/archive/{session-id}/agent-{N}`
 - Worktrees cleaned up
 - Session state: `merged`
+
+## Purpose
+Merge the winning AgentHub agent branch into the base branch, archive the losers as tags, and clean up worktrees.
+
+## When to use
+After `/hub:eval` has ranked agents, or the user asks to land the winning AgentHub result.
+
+## When NOT to use
+- No AgentHub session or no ranked winner yet -> run eval first.
+- Ordinary git merges outside AgentHub.
+
+## Inputs
+Session id (default: latest), optional `--agent` to force a winner, clean base branch.
+
+## Core workflow
+1. Identify the winner (`--agent` or top-ranked agent).
+2. Merge the winner into the base branch.
+3. Tag each losing branch (archive tag) then delete the branch ref.
+4. Remove worktrees.
+5. Post a merge summary to the board.
+
+## Edge cases and failure handling
+- Merge conflicts -> resolve (see resolving-merge-conflicts) before archiving losers.
+- Dirty base branch -> stop and ask the user to commit or stash.
+
+## Validation
+- Base contains the winner commits; every loser has an archive tag; worktrees are gone; build/tests pass on base.
+
+## Output requirements
+Merge summary: winner, tags created, worktrees removed.
+
+## Example
+```text
+`/hub:merge 20260317-143022 --agent agent-2` -> merge agent-2, tag others, clean up.
+```
+
+## Related skills
+hub-init, hub-status, board

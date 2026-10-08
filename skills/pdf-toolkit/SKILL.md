@@ -155,3 +155,23 @@ python scripts/pdf_auditor.py document.pdf --json
 - Pairs with `legal/` for redacted contract handoffs
 - Pairs with `c-level-advisor/board-deck-builder` for board pack handoff
 - Used by `marketing/` for whitepaper / case-study handoff
+
+## Purpose
+Audit PDFs for metadata leaks, encryption, JavaScript and embedded files.
+
+## When to use
+Before sending a PDF externally.
+
+## When NOT to use
+- PDF generation.
+
+## Edge cases and failure handling
+- Encrypted PDF -> report; do not break encryption.
+
+## Validation
+- Findings listed with fix commands.
+
+## Example
+```text
+Strip author metadata and embedded files before sharing.
+```

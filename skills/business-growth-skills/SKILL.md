@@ -43,3 +43,30 @@ python3 business-growth/skills/customer-success-manager/scripts/health_score_cal
 
 - Route to exactly one skill, then follow that skill's workflow. This router ships no tools of its own.
 - Use the skills' Python scorers for metrics, not manual estimates; deal/contract outputs are drafts for human legal/commercial review.
+
+## Purpose
+Router for the four business & growth skills (customer success, sales engineering, revenue operations, and related).
+
+## When to use
+Choosing among customer-health, RFP/competitive, pipeline/revenue-ops requests.
+
+## When NOT to use
+- Finance questions -> finance-skills.
+- Marketing campaigns -> marketing skills.
+
+## Inputs
+The business request.
+
+## Edge cases and failure handling
+- Multiple rows match -> ask one clarifying question first.
+
+## Validation
+- The chosen skill's signals match the request; its SKILL.md was loaded.
+
+## Related skills
+finance-skills, c-level-skills
+
+## Example
+```text
+"Which accounts are at risk?" -> customer-success-manager.
+```

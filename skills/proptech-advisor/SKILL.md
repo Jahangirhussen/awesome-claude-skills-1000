@@ -107,3 +107,30 @@ python scripts/market_segment_classifier.py description.txt --json
 - **Fair housing is non-negotiable.** Algorithms ranking properties by neighborhood demographics or "school quality" can produce illegal disparate impact.
 - **Residential and commercial are different industries.** Don't try to serve both in one product.
 - **Cyclical industry.** Transaction-based proptech sees revenue swings with rate cycles; build resilience.
+
+## Purpose
+Strategic advisory for proptech founders: segments, MLS/brokerage models, licensing, business models.
+
+## When to use
+Scoping or validating a proptech idea.
+
+## When NOT to use
+- Real-estate investment advice.
+- Legal licensing opinions (use counsel).
+
+## Inputs
+The idea, target market, jurisdiction.
+
+## Edge cases and failure handling
+- Licensing varies by jurisdiction -> flag and recommend local counsel.
+
+## Validation
+- Segment, revenue model and regulatory exposure are each stated with assumptions.
+
+## Example
+```text
+Idea: rent-to-own marketplace -> segment, licensing needs, take-rate model, MLS data access risks.
+```
+
+## Related skills
+ceo-advisor, marketplace-advisor

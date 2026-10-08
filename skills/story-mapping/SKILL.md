@@ -73,3 +73,8 @@ Stop rule: ask only the 2-3 that most change the output. If the user says "just 
 - Jeff Patton, *User Story Mapping* (2014)
 - Jeff Patton, "The New User Story Backlog Is a Map" (2005)
 - Inspired by Productside story mapping workshops
+
+## Example
+```text
+Backbone: Sign up -> Create project -> Invite team; slice MVP release line under the backbone.
+```

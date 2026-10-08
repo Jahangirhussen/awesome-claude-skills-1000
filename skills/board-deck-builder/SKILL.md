@@ -182,3 +182,30 @@ Never bury it. Boards find out eventually. Finding out late makes it worse.
 ## References
 - `references/deck-frameworks.md` — SaaS board pack format, Sequoia structure, investor tailoring
 - `templates/board-deck-template.md` — fill-in template for complete board decks
+
+## Purpose
+Assemble board and investor update decks from all C-suite perspectives.
+
+## When to use
+Preparing a board meeting or investor update deck.
+
+## When NOT to use
+- Meeting preparation Q&A (board-prep).
+- Single-department reports.
+
+## Inputs
+Metrics, narrative points, past deck, company context.
+
+## Edge cases and failure handling
+- Missing numbers -> placeholders flagged, never invented.
+
+## Validation
+- Every figure traces to a source; sections cover finance, product, people, risks, asks.
+
+## Example
+```text
+Q3 deck: highlights, KPIs, runway, risks, decisions needed.
+```
+
+## Related skills
+board-prep, investor-update-generator, cfo-advisor

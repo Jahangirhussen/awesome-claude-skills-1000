@@ -154,3 +154,25 @@ Within 24 hours:
 - Schedule follow-up with any director who seemed unsatisfied
 
 The next board prep starts now.
+
+## Purpose
+Prepare a founder/CEO for an adversarial board meeting: numbers mastered, hard questions anticipated, honest narrative, director-by-director prep.
+
+## When to use
+A board meeting is coming, especially one with bad news, a raise, or tension.
+
+## When NOT to use
+- Routine friendly updates (investor-update-generator).
+- Building the board deck itself (board-deck-builder).
+
+## Edge cases and failure handling
+- A number cannot be explained -> do not present it until it can be sourced.
+- Director with a known agenda -> prepare a specific response per question.
+
+## Example
+```text
+Burn up 30% -> prepare the cause, the plan, the trigger for cutting, and a one-line answer for "how long is runway?".
+```
+
+## Related skills
+board-deck-builder, board-meeting, cfo-advisor

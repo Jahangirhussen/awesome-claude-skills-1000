@@ -67,3 +67,17 @@ tauri updater, ota updates, signing, update server
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Guide Tauri v2 updater plugin: OTA updates and signing keys.
+
+## Inputs
+A Tauri v2 project, update server or release host, signing key pair.
+
+## Example
+```text
+Generate signing keys, configure endpoints in `tauri.conf.json`, publish a signed release, test an update.
+```
+
+## Related skills
+tauri-build, tauri-security, tauri-config

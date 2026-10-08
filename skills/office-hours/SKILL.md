@@ -112,3 +112,25 @@ This is the YC `office hours` pattern adapted for Claude Code: the interrogation
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+YC-style founder interrogation before any advice.
+
+## When NOT to use
+- The founder wants tactical help with a known plan.
+- Non-founder questions.
+
+## Inputs
+A topic; the founder's answers to six questions (problem, customer, distribution, defensibility, capital, founder fit).
+
+## Edge cases and failure handling
+- Vague answers -> ask a sharper follow-up; do not advance.
+- Founder skips a question -> note it as a risk.
+
+## Validation
+- All six questions have specific answers or an explicit risk note before advice starts.
+
+## Example
+```text
+Topic "AI invoicing" -> who exactly pays, how they find you, why you win -> then advice.
+```

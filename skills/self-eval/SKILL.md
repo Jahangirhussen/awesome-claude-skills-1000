@@ -179,3 +179,18 @@ Present your evaluation as:
 - Resolution: [final reasoning]
 
 **Score: [1-5]** — [1-sentence final justification]
+
+## Purpose
+Honestly score AI work quality on two axes.
+
+## When to use
+After finishing a task or session.
+
+## When NOT to use
+- Mid-task progress checks.
+
+## Inputs
+The work product and the goal.
+
+## Validation
+- Scores are justified with evidence, not inflated.

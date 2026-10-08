@@ -105,3 +105,23 @@ When debugging, provide:
 4. **Prevention**: Test or safeguard to prevent recurrence
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/quality/debugging-wizard/)
+
+## Purpose
+Systematic debugging from error messages, stack traces and logs.
+
+## When to use
+An error or failing behaviour needs diagnosing.
+
+## When NOT to use
+- Performance tuning only.
+
+## Inputs
+Error text, stack trace, logs, repro steps.
+
+## Edge cases and failure handling
+- No repro -> add logging first.
+
+## Example
+```text
+TypeError at line 42 -> trace the call chain -> hypothesis -> test -> fix.
+```

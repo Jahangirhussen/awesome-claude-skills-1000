@@ -119,3 +119,30 @@ All 59 scripts are stdlib-only; most run a demo with no args.
 - If `.claude/product-marketing-context.md` exists, read it before any marketing task.
 - `content-creator` is deprecated — use `skills/content-production/`.
 - Don't pip-install anything for these tools.
+
+## Purpose
+Directory and router for the marketing skills library.
+
+## When to use
+Finding the right marketing skill for a task.
+
+## When NOT to use
+- Executing the marketing work itself.
+- SEO ranking work -> seo-master.
+
+## Inputs
+The marketing task.
+
+## Edge cases and failure handling
+- Several fit -> pick by output type.
+
+## Validation
+- The selected skill's scope matches the task.
+
+## Example
+```text
+"write an email sequence" -> email-sequence.
+```
+
+## Related skills
+copywriting, content-strategy, paid-ads

@@ -72,3 +72,34 @@ To test/visualize the artifact, use available tools (including other Skills or b
 ## Reference
 
 - **shadcn/ui components**: https://ui.shadcn.com/docs/components
+
+## Purpose
+Build multi-component claude.ai HTML artifacts with React, Tailwind and shadcn/ui and bundle them into a single HTML file.
+
+## When to use
+A complex artifact needs state management, routing or shadcn/ui components.
+
+## When NOT to use
+- Simple single-file HTML pages.
+- Production web apps (this bundles one standalone artifact).
+
+## Inputs
+The artifact requirements and any data or design guidance.
+
+## Edge cases and failure handling
+- Bundle fails -> check the bundler output and missing imports.
+- Artifact too large -> split features or drop unused components.
+
+## Validation
+- Bundled HTML opens standalone with no console errors; interactions work; layout is responsive.
+
+## Output requirements
+A single bundled HTML file ready to share.
+
+## Example
+```text
+Dashboard artifact: init project, build components with shadcn/ui, bundle to one HTML, open and test.
+```
+
+## Related skills
+frontend-design, algorithmic-art

@@ -93,3 +93,18 @@ You: [Fix progress indicators]
 - Request clarification
 
 See template at: [code-reviewer.md](code-reviewer.md)
+
+## Purpose
+Request a code review at the right moment so issues are caught before merge.
+
+## When to use
+After finishing a task or major feature, before merging.
+
+## When NOT to use
+- Trivial typo edits.
+
+## Inputs
+Diff range, requirements, plan.
+
+## Edge cases and failure handling
+- Reviewer findings conflict -> resolve with the plan.

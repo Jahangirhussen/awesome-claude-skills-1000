@@ -102,3 +102,17 @@ python scripts/investor_update_validator.py update.md --json
 - **Cadence > perfection.** A consistent OK update beats a perfect annual one.
 - **Same metrics every month.** Defining and re-defining metrics signals dishonest reporting.
 - **One page (or one screen).** Past two screens, attention drops.
+
+## Purpose
+Validate a monthly investor update against strong-update criteria.
+
+## When to use
+Before sending an investor update.
+
+## Edge cases and failure handling
+- Missing asks or metrics -> flag.
+
+## Example
+```text
+Update lacks a specific ask -> add "intros to 3 logistics CFOs".
+```

@@ -104,3 +104,37 @@ parent: null
 - **Append-only** — never edit or delete existing posts
 - **Unique filenames** — `{seq:03d}-{author}-{timestamp}.md`
 - **Frontmatter required** — every post has author, timestamp, channel
+
+## Purpose
+Read, write and browse the AgentHub message board used for agent coordination.
+
+## When NOT to use
+- No AgentHub session exists.
+- General chat or notes (use wiki/notepad).
+
+## Inputs
+Channel name, author, message text, session context.
+
+## Core workflow
+1. List channels with `board_manager.py --list`.
+2. Read a channel with `--read <channel>`.
+3. Post with `--post --channel <c> --author <a> --message "..."`.
+4. Reply in a thread when answering.
+
+## Edge cases and failure handling
+- Channel does not exist -> create by posting or check the name via `--list`.
+- Concurrent posts -> re-read before replying.
+
+## Validation
+- Post appears in the channel with the right author and format; summaries use the Result Summary format.
+
+## Output requirements
+Channel listing, posts read, or confirmation of the posted message.
+
+## Example
+```text
+`/hub:board --read results` -> shows agent result posts.
+```
+
+## Related skills
+hub-init, hub-status, merge

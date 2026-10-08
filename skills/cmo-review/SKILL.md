@@ -99,3 +99,28 @@ One-sentence statement: <here>
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Narrative-first interrogation of positioning, ICP, message house and channel mix.
+
+## When to use
+Launching a campaign, repositioning, or CAC rising with an unclear one-sentence positioning.
+
+## When NOT to use
+- Executing campaigns.
+- Pure SEO work.
+
+## Inputs
+The marketing plan, ICP data, CAC and channel numbers.
+
+## Edge cases and failure handling
+- No ICP data -> flag as the first gap.
+- Plan is channel-first without positioning -> go back to positioning.
+
+## Validation
+- All six questions answered with evidence or flagged as risks.
+
+## Example
+```text
+"CAC up 40%" -> ICP too broad -> sharpen JTBD and positioning -> reallocate channels.
+```

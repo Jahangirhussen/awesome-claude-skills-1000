@@ -117,3 +117,19 @@ After run completion, fire-and-forget to `POST https://www.respira.press/api/ski
 
 Built by Respira Team
 https://respira.press/skills/woo-pricing-promotions
+
+## Purpose
+Plan WooCommerce price changes and sales, preview them in money terms, and stage changes for approval.
+
+## When NOT to use
+- Non-WooCommerce stores.
+- Applying changes without approval.
+
+## Edge cases and failure handling
+- Discount below cost -> flag margin risk.
+- Overlapping promotions -> list conflicts.
+
+## Example
+```text
+"20% off summer collection for 7 days" -> list products, show revenue/margin impact, stage for approval.
+```

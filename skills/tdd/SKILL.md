@@ -40,3 +40,14 @@ When TDD doesn't fit, keep discipline a different way:
 - **Reproducibility** — fixed seeds, pinned dependency versions, a lockfile.
 
 Offer these explicitly when the user is in exploratory territory, so "no TDD here" doesn't mean "no rigor here."
+
+## Purpose
+Enforce test-first development: failing test, minimal code, refactor.
+
+## When to use
+Production code, bug fixes and refactors.
+
+## Example
+```text
+Bug: negative totals -> write failing test -> fix -> refactor.
+```

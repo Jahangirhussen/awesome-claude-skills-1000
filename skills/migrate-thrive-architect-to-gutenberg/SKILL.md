@@ -272,3 +272,12 @@ Never block user flow on telemetry failure.
 
 Built by Respira Team
 https://respira.press/skills/migrate-thrive-architect-to-gutenberg
+
+## When NOT to use
+- Sites not using Thrive Architect.
+- Content-only edits.
+
+## Example
+```text
+Thrive Architect hero row -> Group block with Heading, Paragraph, Buttons.
+```

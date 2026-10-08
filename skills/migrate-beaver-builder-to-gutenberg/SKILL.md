@@ -263,3 +263,12 @@ Never block user flow on telemetry failure.
 
 Built by Respira Team
 https://respira.press/skills/migrate-beaver-builder-to-gutenberg
+
+## When NOT to use
+- Sites not using Beaver Builder.
+- Content-only edits.
+
+## Example
+```text
+Beaver Builder hero row -> Group block with Heading, Paragraph, Buttons.
+```

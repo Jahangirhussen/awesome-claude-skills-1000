@@ -103,3 +103,27 @@ international expansion, market entry, localization, go-to-market, GTM, regional
 ## Resources
 - `references/market-entry-playbook.md` — detailed entry playbook by market type
 - `references/regional-guide.md` — specific considerations for key regions (EU, US, APAC, LATAM)
+
+## Purpose
+International expansion strategy: market selection, entry mode, localization, compliance and regional go-to-market.
+
+## When to use
+Expanding into new countries or evaluating international markets.
+
+## When NOT to use
+- Website hreflang/multilingual SEO -> seo-master (international).
+- Domestic growth planning.
+
+## Inputs
+Product, current markets, resources, target regions.
+
+## Output requirements
+Ranked market list with entry mode, localization needs, regulatory flags and launch plan.
+
+## Example
+```text
+SaaS from US to EU: score Germany/France/UK, choose direct sales + partners, GDPR and VAT checks, translate UI.
+```
+
+## Related skills
+cro-advisor, coo-advisor, seo-master

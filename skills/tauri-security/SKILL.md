@@ -70,3 +70,17 @@ tauri security, capabilities, scope, acl, permissions, 权限配置, 能力文�
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Guide Tauri v2 capabilities, scope configuration and ACL-based permissions.
+
+## Inputs
+Tauri v2 project config and the features it uses.
+
+## Example
+```text
+Restrict fs plugin scope to app data directory; deny shell by default.
+```
+
+## Related skills
+tauri-config, tauri-ipc, tauri-build

@@ -97,3 +97,18 @@ lone edited cell mid-row is the commonest silent error · guard denominators tha
 ## Dependencies
 
 `openpyxl`, `pandas`, `markitdown` (pip, preinstalled — install only if an import fails or the command is missing) · LibreOffice (`soffice`, auto-configured for sandboxed environments via `scripts/office/soffice.py`)
+
+## Purpose
+Read, edit, create and analyze spreadsheet files.
+
+## When to use
+A spreadsheet (.xlsx/.csv/.tsv) is the main input or output.
+
+## When NOT to use
+- Pure data analysis in code with no spreadsheet deliverable.
+
+## Core workflow
+1. Inspect the workbook (sheets, formulas, formats).
+2. Apply changes preserving formulas and formatting.
+3. Recalculate and check for errors.
+4. Save and verify it opens.

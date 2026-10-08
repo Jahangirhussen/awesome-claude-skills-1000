@@ -96,3 +96,23 @@ If yes, invoke `/pw:generate` for each gap with the recommended template.
 - Coverage percentage estimate
 - Prioritized gap list with effort estimates
 - Option to auto-generate missing tests
+
+## Purpose
+Find test coverage gaps and propose missing tests.
+
+## When to use
+User asks about coverage or what is not tested.
+
+## When NOT to use
+- Writing the tests themselves (test-master).
+
+## Inputs
+Coverage report or ability to run it.
+
+## Validation
+- Gaps ranked by risk; each cites file and lines.
+
+## Example
+```text
+auth/session.ts 42% -> missing refresh-token expiry test.
+```

@@ -101,3 +101,27 @@ Output: `📊 Memory: {{n}}/200 lines | {{count}} rules | {{status_emoji}} {{sta
 - If capacity is yellow+, run `/si:memory-review` to identify promotion candidates
 - Stale entries waste space — delete references to files that no longer exist
 - Topic files are fine — Claude creates them to keep MEMORY.md under 200 lines
+
+## Purpose
+Health dashboard for agent memory: size, topic files, capacity, stale entries.
+
+## When to use
+The user runs /si:memory-status or asks how full or healthy memory is.
+
+## When NOT to use
+- Editing memory content -> remember.
+
+## Inputs
+Memory file locations (auto-detected).
+
+## Edge cases and failure handling
+- No memory files -> report empty state.
+- Very large files -> recommend topic split.
+
+## Example
+```text
+MEMORY.md 140/200 lines, 3 stale entries -> recommend pruning.
+```
+
+## Related skills
+remember, wiki

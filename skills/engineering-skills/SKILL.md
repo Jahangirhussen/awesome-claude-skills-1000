@@ -89,3 +89,23 @@ No pip install needed. Scripts include embedded samples for demo mode.
 - Load only the specific skill SKILL.md you need — don't bulk-load all 32
 - Use Python tools for analysis and scaffolding, not manual judgment
 - Check CLAUDE.md for tool usage examples and workflows
+
+## When to use
+Browsing or choosing among the 32 engineering-team skills (architecture, frontend, backend, QA, DevOps, security, AI/ML, data, tools).
+
+## When NOT to use
+- A specific engineering skill is already known (open it directly).
+- Non-engineering requests.
+
+## Inputs
+The engineering task and stack.
+
+## Edge cases and failure handling
+- No skill fits -> use general engineering capability and say so.
+- Several fit -> start with the architecture skill, then specialists.
+
+## Validation
+- The chosen skill's focus matches the task; its SKILL.md was opened before acting.
+
+## Related skills
+engineering-advanced-skills, senior-architect, senior-fullstack

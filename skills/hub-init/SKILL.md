@@ -87,3 +87,31 @@ Tell the user:
 - Baseline metric (if captured)
 - Next step: `/hub:spawn` to launch agents
 - Or `/hub:spawn {session-id}` if multiple sessions exist
+
+## Purpose
+Create a new AgentHub session: task, agent count, evaluation criteria.
+
+## When to use
+The user runs /hub:hub-init or asks to start a multi-agent competition on a task.
+
+## When NOT to use
+- Single-agent work.
+- A session already exists (use hub-status).
+
+## Inputs
+Task description, number of agents, evaluation criteria/metric.
+
+## Edge cases and failure handling
+- Dirty repo -> commit or stash before creating worktrees.
+- Too many agents for resources -> cap and say so.
+
+## Validation
+- Session id created; one worktree/branch per agent; task and criteria recorded.
+
+## Example
+```text
+/hub:hub-init "optimize query" --agents 3 --metric p95_latency
+```
+
+## Related skills
+hub-status, eval, merge, board

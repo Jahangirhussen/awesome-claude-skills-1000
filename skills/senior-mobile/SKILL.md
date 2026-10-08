@@ -1,6 +1,6 @@
 ---
 name: senior-mobile
-description: 
+description: Senior mobile engineering for iOS, Android and cross-platform apps: architecture, performance, release. Use for mobile app design or review. Not for web-only work or backend APIs.
 license: MIT + Commons Clause
 metadata:
   version: 1.1.0
@@ -88,3 +88,10 @@ Load the reference that matches the task — keep this file lean and pull detail
 | `senior-qa` | Test strategy alignment, device matrix coverage, and E2E testing patterns for mobile screens | QA test plans drive device coverage; mobile scaffold includes test directory structure |
 | `senior-security` | Secure storage patterns (Keychain/Keystore), certificate pinning, and data encryption for mobile apps | Security requirements inform Keychain helper implementation and network client configuration |
 | `release-orchestrator` | Version bumping, changelog generation, and coordinated release across iOS and Android | Release metadata and version info flow from orchestrator into store submission workflow |
+
+## Purpose
+Mobile engineering guidance across native and cross-platform stacks.
+
+## When NOT to use
+- Web-only front ends.
+- Backend API design.

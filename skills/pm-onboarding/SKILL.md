@@ -84,3 +84,6 @@ External: Watkins, M. *The First 90 Days* (HBR Press, 2013); Bock, L. *Work Rule
 | `senior-pm/stakeholder-mapper/` | Reuses | The stakeholder mapping technique scales beyond onboarding into steady-state |
 | `execution/create-prd/` | Feeds into | First-PRD template is a tighter version of the full PRD skill |
 | `discovery/interview-synthesis/` | Reuses | Customer interviews in week 5 use the same synthesis discipline as steady-state discovery |
+
+## Validation
+- Plan has 30/60/90 goals with measurable outcomes.

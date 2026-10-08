@@ -23,3 +23,24 @@ Read the relevant sub-skill for the topic at hand. All sub-skills are in `refere
 | `references/enable-worklets-bundle-mode/SKILL.md` | Enabling react-native-worklets Bundle Mode (imports inside worklets, third-party npm libraries on worklet runtimes) in an Expo, RN CLI, or brownfield app: babel bundleMode plugin option, bundleModeMetroConfig / getBundleModeMetroConfig, mandatory metro and metro-runtime patches per package manager, "Failed to get the SHA-1" errors, missing Fast Refresh for worklet code, uniwind/NativeWind resolver conflicts |
 | `references/audio/SKILL.md` | Audio playback (buffer sources, oscillators, streaming, queued playback), recording (file, data callback, graph processing), audio effects (gain, filters, delay, convolver, panner, waveshaper), real-time analysis and visualization, audio worklets (custom processing, synthesis), system integration (sessions, interruptions, notifications, permissions), testing with mocks -- any audio feature with react-native-audio-api |
 | `references/jsi/SKILL.md` | JSI, C++ native modules, jsi::Runtime, jsi::Value, jsi::Object, jsi::Function, jsi::HostObject, jsi::HostFunction, jsi::NativeState, jsi::PropNameID, jsi::ArrayBuffer, jsi::WeakObject, jsi::Scope, jsi::BigInt, JSIException, JSError, JSINativeException, calling JS from C++, calling C++ from JS, HostObject destructor constraints, shared_ptr<jsi::Value>, CallInvoker, invokeAsync, JSI threading safety, zero-copy ArrayBuffer, rt.global(), ISerialization, WithRuntimeDecorator, jsi.h |
+
+## Purpose
+Software Mansion best practices for production React Native / Expo apps on the New Architecture.
+
+## When NOT to use
+- Web React projects.
+- Non-RN native apps.
+
+## Edge cases and failure handling
+- Old architecture project -> check compatibility before applying advice.
+
+## Validation
+- App builds and runs on a device or simulator; no new warnings; performance checks from the relevant sub-skill pass.
+
+## Example
+```text
+Janky list -> open the performance sub-skill, apply FlashList and memoization, profile.
+```
+
+## Related skills
+fishjam, rnrepo, radon-mcp

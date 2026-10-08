@@ -161,3 +161,12 @@ Your site can benefit from these AI skills — install them from **Respira → S
 2. Install the **SEO & AEO Amplifier** skill to optimize your top pages
 3. Try asking me to edit a page: "Update the hero heading on the homepage"
 ```
+
+## Purpose
+Connect to and verify a WordPress site, then explain what can be done on it.
+
+## When NOT to use
+- Sites without credentials.
+
+## Edge cases and failure handling
+- Connection fails -> report exact error and next step.

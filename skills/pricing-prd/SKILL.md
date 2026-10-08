@@ -92,3 +92,6 @@ Pull the reference that matches the task; keep this file lean and load detail on
 | `prfaq/` | Feeds into | A new pricing model often warrants a PR/FAQ for internal alignment |
 | `eol-communication/` | Pattern overlap | EOL of a pricing tier uses similar grandfathering and communication patterns |
 | `launch-playbook/` | Feeds into | Pricing-page launch follows standard launch playbook for internal/external comm coordination |
+
+## Validation
+- Experiment has hypothesis, metric, guardrail and sample size; packaging matches willingness-to-pay data.

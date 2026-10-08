@@ -69,3 +69,31 @@ engineering     bundle-size          23     8   412KB        -58.3%    paused   
 marketing       medium-ctr           31    11   8.4/10       +68.0%    active   daily
 prompts         support-tone         15     6   82/100       +46.4%    done     —
 ```
+
+## Purpose
+Dashboard for autoresearch experiments: results, active loops and progress.
+
+## When to use
+The user asks how an autoresearch experiment is going or runs /ar:ar-status.
+
+## When NOT to use
+- No experiments exist.
+- Starting a new experiment -> autoresearch setup.
+
+## Inputs
+Optional experiment id, domain, or export format.
+
+## Core workflow
+1. Run `log_results.py` for the single experiment, domain view or full dashboard.
+2. Optionally export markdown or CSV.
+3. Summarise best result and trend.
+
+## Edge cases and failure handling
+- Experiment not found -> list available ones.
+- Empty results -> report that the loop has not logged runs.
+
+## Validation
+- Numbers match the results log; export file written.
+
+## Related skills
+autoresearch

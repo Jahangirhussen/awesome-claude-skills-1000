@@ -21,3 +21,43 @@ Read the relevant reference for the tool at hand. All references are in `referen
 | `references/reload-application.md`           | Reloading the app - choosing between JS reload, process restart, or full rebuild                   |
 | `references/query-documentation.md`          | Looking up React Native / Expo API docs from a curated knowledge base                              |
 | `references/get-library-description.md`      | Evaluating what an npm library does and whether it fits the task                                   |
+
+## Purpose
+Rules for using Radon IDE MCP tools to inspect and debug a running React Native/Expo app.
+
+## When to use
+A Radon IDE session is active and the task involves screenshots, logs, component tree, network requests, reloads or React Native docs.
+
+## When NOT to use
+- No Radon IDE session or the app is not React Native/Expo.
+- Pure code edits that need no live app inspection.
+
+## Inputs
+A running app in Radon IDE; the symptom (UI bug, crash, network failure, build error).
+
+## Core workflow
+1. Call `view_application_logs` first for any problem (build, native, runtime).
+2. Use `view_screenshot` to confirm the visible state.
+3. Use `view_component_tree` for layout/props issues.
+4. Use `view_network_logs` then `view_network_request_details` for API problems.
+5. Apply the fix, `reload_application`, and re-check logs and screenshot.
+6. Open the matching file in `references/` for tool-specific guidance.
+
+## Edge cases and failure handling
+- Logs empty -> reload and reproduce, then re-read.
+- Screenshot does not match code -> app is stale; reload.
+- Docs lookup needed -> `query_documentation` / `get_library_description`.
+
+## Validation
+- After the fix, logs show no new errors and the screenshot/network response matches expected behaviour.
+
+## Output requirements
+Findings (log line, request, component), the fix applied, and verification evidence.
+
+## Example
+```text
+Blank screen -> logs show undefined prop -> component tree confirms -> fix -> reload -> screenshot shows content.
+```
+
+## Related skills
+react-native-best-practices, react-native-expert, expo-horizon

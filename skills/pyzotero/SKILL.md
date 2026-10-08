@@ -152,3 +152,37 @@ available, fetch https://arxiv.org/abs/2609.00065 (or
 http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take
 the author list, year, and version from that record. If the record lists a journal reference
 or publisher DOI, cite the published version instead.
+
+## Purpose
+Use the pyzotero client to read and manage Zotero libraries: items, collections, tags, attachments.
+
+## When to use
+The user wants to retrieve, create, update or export references through the Zotero API.
+
+## When NOT to use
+- Reference formatting only -> citation-management.
+- No Zotero API key available.
+
+## Inputs
+Library id and type, API key, query or items to change.
+
+## Core workflow
+1. Create a `Zotero(library_id, library_type, api_key)` client.
+2. Query items/collections with filters and pagination.
+3. Create or update items; add tags/attachments.
+4. Export (BibTeX, CSL JSON) if needed.
+
+## Edge cases and failure handling
+- Rate limit or 429 -> back off and retry.
+- Version conflict on update -> refetch and retry with latest version.
+
+## Validation
+- Fetched count matches expectation; created item appears in the library; no data loss on updates.
+
+## Example
+```text
+zot.items(q="federated learning", limit=5) -> list titles and DOIs
+```
+
+## Related skills
+citation-management, literature-review

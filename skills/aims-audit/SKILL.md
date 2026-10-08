@@ -130,3 +130,20 @@ python ../../skills/compliance-os/scripts/cross_framework_mapper.py program.json
 ---
 
 **Version:** 1.0.0
+
+## When to use
+Before certification stage 1 or an annual ISO/IEC 42001 internal audit.
+
+## When NOT to use
+- Non-AI management systems.
+
+## Inputs
+AIMS scope, documentation, evidence.
+
+## Edge cases and failure handling
+- Missing evidence -> record as nonconformity or observation.
+
+## Example
+```text
+Scope: LLM support bot -> check policy, risk assessment, impact assessment, monitoring evidence.
+```

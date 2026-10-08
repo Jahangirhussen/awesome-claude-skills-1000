@@ -113,3 +113,23 @@ This is weaker than true multi-model. Treat the result as suggestive, not conclu
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Multi-model consensus review of a board memo or brief.
+
+## When to use
+A memo needs independent model cross-review.
+
+## When NOT to use
+- Routine documents.
+
+## Inputs
+The memo.
+
+## Validation
+- Agreements and disagreements listed.
+
+## Example
+```text
+/cs:cross-eval memo.md
+```

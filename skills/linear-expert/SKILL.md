@@ -93,3 +93,9 @@ Load the reference that matches the task — keep this file lean and pull detail
 | `scrum-master/` | Linear → Analytics | Cycle data feeds velocity_analyzer.py and sprint_health_scorer.py |
 | `senior-pm/` | Linear → Portfolio | Initiative-level rollups feed project_health_dashboard.py |
 | `delivery-manager/` | Linear → Release | Project completion state and milestone dates feed release coordination |
+
+## Inputs
+Workspace/team context and the Linear task.
+
+## Validation
+- Changes confirmed in Linear (issue ids/URLs).

@@ -67,3 +67,17 @@ tauri file system, scope, read write, file access
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Guide Tauri v2 file-system plugin usage with scoped access and safe file operations.
+
+## Inputs
+A Tauri v2 project (Rust backend + web frontend).
+
+## Example
+```text
+Allow read/write only under `$APPDATA`; call the fs API from the frontend; verify access outside scope is denied.
+```
+
+## Related skills
+tauri-config, tauri-security, tauri-ipc, tauri-build

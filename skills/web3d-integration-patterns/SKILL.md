@@ -850,3 +850,9 @@ This skill includes bundled resources for multi-library integration:
 ---
 
 **Use this skill when building complex 3D web applications that integrate multiple animation and rendering libraries. For library-specific implementation details, reference the individual foundation skills.**
+
+## When NOT to use
+- Simple 3D with one library.
+
+## Inputs
+Experience requirements and chosen libraries.

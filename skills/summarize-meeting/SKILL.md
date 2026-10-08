@@ -77,3 +77,6 @@ Load the reference that matches the task — keep this file lean and pull detail
 | `../confluence-expert/` | Meetings -> Confluence | Summaries stored in Confluence using meeting notes template |
 | `../senior-pm/` | Meetings -> PM | Steering committee and stakeholder meeting summaries feed portfolio reporting |
 | `../delivery-manager/` | Meetings -> DM | Release planning and incident review meeting outcomes feed delivery tracking |
+
+## Validation
+- All decisions and action items have owners and dates or are marked TBD.

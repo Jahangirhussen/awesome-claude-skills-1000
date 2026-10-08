@@ -59,3 +59,23 @@ For multi-step tasks, state a brief plan:
 ```
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
+
+## When to use
+Writing, reviewing or refactoring code where LLM habits (overcomplication, drive-by edits, unverified assumptions) are a risk.
+
+## When NOT to use
+- Throwaway scripts where speed matters more than minimal diff.
+
+## Edge cases and failure handling
+- Requirement unclear -> state the assumption or ask before coding.
+
+## Output requirements
+Small surgical diffs with a note of assumptions made.
+
+## Example
+```text
+Bug fix touches one function; no reformatting of the file; test added for the bug.
+```
+
+## Related skills
+minimal-code-discipline, minimalist, zero-hallucination-coder

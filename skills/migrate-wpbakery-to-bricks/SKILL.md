@@ -351,3 +351,9 @@ Never block user flow on telemetry failure.
 
 Built by Respira Team
 https://respira.press/skills/migrate-wpbakery-to-bricks
+
+## Purpose
+Migrate a WPBakery site to Bricks Builder.
+
+## When NOT to use
+- Other builders.

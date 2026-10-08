@@ -104,3 +104,21 @@ Load the reference that matches the task — keep this file lean and pull detail
 | [doc-drift-detector](../doc-drift-detector/SKILL.md) | Detects when CLAUDE.md drifts out of sync with the codebase | Context Analyzer output feeds drift detection; drift findings trigger CLAUDE.md optimization |
 | [context-engine](../../engineering/context-engine/SKILL.md) | Advanced context management strategies | Context Analyzer provides token budgets; Context Engine applies compression and prioritization |
 | [senior-secops](../senior-secops/SKILL.md) | Security hooks and permission mode configuration | SecOps policies define which tools to deny; Claude Code Mastery configures the permission allowlists |
+
+## Purpose
+Reference for using Claude Code effectively: configuration, hooks, MCP, subagents, workflow.
+
+## When NOT to use
+- Non-Claude tools.
+- Application development unrelated to the tool.
+
+## Validation
+- Settings changes validated by running the affected command; hooks fire as expected.
+
+## Example
+```text
+Add a PostToolUse hook for formatting; run an edit; confirm formatting ran.
+```
+
+## Related skills
+update-config, keybindings-help

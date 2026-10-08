@@ -57,3 +57,22 @@ python3 ra-qm-team/skills/risk-management-specialist/scripts/risk_matrix_calcula
 - Route to exactly one skill, then follow that skill's workflow. This router ships no tools of its own.
 - All outputs are decision support: final compliance determinations route to the named human owner (QMR, DPO, regulatory counsel) — never auto-decide.
 - Verify regulatory citations against the current text (e.g., FDA QMSR effective 2026-02-02 replaced the legacy QSR subsections).
+
+## Purpose
+Router for 15 regulatory and quality-management skills (ISO 13485, MDR, FDA QMSR, ISO 14971, CAPA, ISO 27001, etc.).
+
+## When to use
+A regulatory or QMS request that does not obviously match one skill.
+
+## When NOT to use
+- General legal advice.
+- Non-regulated product work.
+
+## Inputs
+The regulatory question, standard and product type.
+
+## Edge cases and failure handling
+- Multiple standards apply -> start with the governing one and cross-reference.
+
+## Related skills
+iso13485-audit-prep, mdr-745-specialist, capa-officer

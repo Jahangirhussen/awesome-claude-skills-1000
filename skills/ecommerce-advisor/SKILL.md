@@ -116,3 +116,21 @@ python scripts/ecom_unit_economics_calculator.py model.json --json
 - **Plan for inventory.** Working capital tied up in inventory is the #1 cash-flow killer for product brands.
 - **Don't fall in love with revenue.** $10M revenue at 5% contribution margin is worse than $3M revenue at 30% contribution margin.
 - **Be honest about CAC.** Most DTC brands subsidize CAC and call it growth. CAC payback under 6 months is the bar.
+
+## Purpose
+Strategy advice for e-commerce founders: unit economics, fulfillment, payments, channels.
+
+## When to use
+Planning or fixing an e-commerce business.
+
+## When NOT to use
+- Store technical build.
+
+## Edge cases and failure handling
+- Missing margin data -> request it.
+
+## Validation
+- Unit economics computed.
+
+## Related skills
+seo-master, woo-pricing-promotions

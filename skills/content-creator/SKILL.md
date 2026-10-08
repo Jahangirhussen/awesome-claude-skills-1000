@@ -53,3 +53,24 @@ This is a redirect skill. Route the user to the correct specialist — don't att
 - **content-strategy**: Content planning and topic selection (successor).
 - **content-humanizer**: Post-processing AI content to sound authentic.
 - **marketing-context**: Foundation context that both successors read.
+
+## Purpose
+Deprecated redirect: send legacy content-creator requests to the right specialist skill.
+
+## When NOT to use
+- Do not do the writing here; route to the specialist.
+- Requests that name a specific specialist already.
+
+## Inputs
+The content request (blog, article, guide, brand voice, calendar).
+
+## Edge cases and failure handling
+- Request fits two specialists -> pick the one that owns the output type (e.g. SEO content -> seo-master content).
+
+## Validation
+- The request was handed to a specialist and the output matches the type asked for.
+
+## Example
+```text
+"Write a blog post about onboarding" -> route to content-strategy/seo content writing skills.
+```

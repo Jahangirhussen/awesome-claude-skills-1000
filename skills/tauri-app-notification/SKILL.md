@@ -67,3 +67,20 @@ tauri notification, system alerts, permissions, callbacks
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Guide Tauri v2 notification plugin usage: permission flow and click handling.
+
+## Inputs
+A Tauri v2 project and the target platforms.
+
+## Validation
+- Permission is requested and handled; a test notification appears; click handling fires on the target OS.
+
+## Example
+```text
+Request permission on startup, send a notification, handle click to focus the window.
+```
+
+## Related skills
+tauri-ipc, tauri-config, tauri-security

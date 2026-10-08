@@ -191,3 +191,16 @@ The goal isn't to establish that someone made a mistake. The goal is to understa
 The first version fires or shames someone. The second version builds a more resilient organization.
 
 Both might be true simultaneously. The distinction is: which one actually prevents recurrence?
+
+## Purpose
+Blameless 5-Whys postmortem after a failed launch, missed quarter or bad hire.
+
+## When to use
+Something went wrong and the team needs honest analysis.
+
+## When NOT to use
+- Incidents in production systems -> post-mortem.
+- Assigning blame.
+
+## Inputs
+What happened, timeline, people involved.

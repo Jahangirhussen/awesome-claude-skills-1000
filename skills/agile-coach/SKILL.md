@@ -69,3 +69,14 @@ The agent acts as an expert agile coach guiding teams and organizations through 
 | `jira-expert/` | Coach -> Jira | Board and workflow requirements derived from framework selection |
 | `senior-pm/` | PM -> Coach | Portfolio priorities shape which teams get coaching focus first |
 | `confluence-expert/` | Coach -> Confluence | Coaching artifacts (maturity reports, retro outcomes) documented in Confluence |
+
+## Purpose
+Agile coaching: framework selection, maturity assessment, retrospectives, transformation.
+
+## Inputs
+Team size, context, pain points.
+
+## Example
+```text
+Team of 8 with weak planning -> Scrum with explicit sprint goals.
+```

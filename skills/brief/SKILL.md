@@ -116,3 +116,20 @@ This is also the **artifact handoff** — the next command consumes this file, n
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+One-page strategy brief from an office-hours intake; first step of the strategic sprint pipeline.
+
+## When to use
+After /cs:office-hours produced intake answers.
+
+## When NOT to use
+- No intake yet -> office-hours first.
+
+## Validation
+- Brief fits one page and states problem, option, risk, ask.
+
+## Example
+```text
+/cs:brief "enter UK market" -> 1-page brief.
+```

@@ -76,3 +76,19 @@ Load the reference that matches the task — keep this file lean and pull detail
 - `engineering/kubernetes-operator` — for AKS operator-pattern workloads
 - `ra-qm-team/information-security-manager-iso27001` — for compliance-mapped controls (Azure has built-in Defender / Compliance Manager)
 - `ra-qm-team/soc2-compliance-expert` — Azure-specific SOC 2 evidence collection
+
+## Purpose
+Design, review and validate Azure architectures.
+
+## When NOT to use
+- Application code.
+- Other clouds (use the matching cloud architect).
+
+## Edge cases and failure handling
+- Requirements conflict (cost vs availability) -> present options with trade-offs.
+- Service limits/quotas -> check regional availability before committing.
+
+## Example
+```text
+Web app on Azure: network isolation, managed compute, managed database, identity, monitoring, DR plan.
+```

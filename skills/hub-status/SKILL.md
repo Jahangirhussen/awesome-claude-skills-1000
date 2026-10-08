@@ -76,3 +76,26 @@ If all agents have posted results:
 If some agents are still running:
 - Show which are done vs in-progress
 - Suggest waiting or checking again later
+
+## Purpose
+Show DAG state, agent progress and branch status for an AgentHub session.
+
+## When to use
+The user runs /hub:hub-status or asks how AgentHub agents are doing.
+
+## When NOT to use
+- No AgentHub session.
+- Ranking agents -> hub eval.
+
+## Inputs
+Optional session id.
+
+## Edge cases and failure handling
+- No session -> say none found and suggest hub-init.
+- Agents stalled -> point to the last board post.
+
+## Validation
+- Numbers match the session state files; every agent listed.
+
+## Related skills
+hub-init, board, merge

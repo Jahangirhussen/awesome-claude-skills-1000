@@ -100,3 +100,12 @@ Close with: enabled formats and their URLs, catalog score, categories mapped/unm
 - Feed generation is read-only over the catalog; it writes only its own option rows and feed files.
 - Never edit robots.txt, prices, or products in this skill without explicit user approval; content fixes belong to woo-catalog-perfection.
 - Feed URLs contain an unguessable token. Treat them like capability URLs: share with platforms, not in public posts.
+
+## Purpose
+Make a WooCommerce store visible and usable to AI agents: product feeds, Merchant Center, agent-ready data.
+
+## When NOT to use
+- Non-WooCommerce stores.
+
+## Inputs
+Store access, feed targets (Google Merchant Center, ChatGPT shopping).

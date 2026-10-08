@@ -134,3 +134,24 @@ python ../../skills/compliance-os/scripts/audit_simulator.py scope.json
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Six-question interrogation of any compliance program across frameworks.
+
+## When to use
+Before starting or certifying a compliance program (SOC 2, ISO 27001, GDPR, etc.).
+
+## When NOT to use
+- Legal opinions.
+- Executing specific control implementations.
+
+## Edge cases and failure handling
+- Framework scope unclear -> pick the governing framework first.
+
+## Validation
+- Each of the six questions answered with evidence or flagged as a gap.
+
+## Example
+```text
+SOC 2 Type I: scope, controls, evidence, owners, timeline, auditor.
+```

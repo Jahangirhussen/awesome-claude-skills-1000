@@ -57,3 +57,18 @@ After a preferred theme is selected:
 
 ## Create your Own Theme
 To handle cases where none of the existing themes work for an artifact, create a custom theme. Based on provided inputs, generate a new theme similar to the ones above. Give the theme a similar name describing what the font/color combinations represent. Use any basic description provided to choose appropriate colors/fonts. After generating the theme, show it for review and verification. Following that, apply the theme as described above.
+
+## When NOT to use
+- Designing a brand identity from scratch -> brand skills.
+- Complex layouts needing custom CSS.
+
+## Edge cases and failure handling
+- Chosen theme fails contrast on dark backgrounds -> use a variant or custom theme.
+
+## Output requirements
+The artifact restyled with the selected theme's colors and fonts.
+
+## Example
+```text
+Apply "Ocean Depths" to a slide deck: replace colors and fonts, keep layout.
+```

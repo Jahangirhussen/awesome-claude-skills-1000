@@ -316,3 +316,14 @@ A soft-launch or kitchen-sink beta is one of the least useful. The team spends w
 The teams that earn returns on betas are the ones that take the structure seriously: cohorts calibrated to the GA profile, feedback channels designed for signal, mid-beta triage that uses what is being learned, graduation criteria that distinguish ready from tired, wind-down communication that treats participants well enough to recruit them again.
 
 When in doubt about whether a beta is ready, ask: are participants matched to the GA user, are feedback channels structured, is the team responding to feedback during the beta, are graduation criteria explicit and being applied honestly, will participants want to join the next beta? If yes to all of those, the beta is real. If no to any, the gap is where the beta will fail to convert participation into learning.
+
+## Purpose
+Run closed and open betas that produce real signal.
+
+## When NOT to use
+- Marketing launches.
+
+## Example
+```text
+20-user closed beta with weekly feedback survey and GA exit criteria.
+```

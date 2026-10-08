@@ -337,3 +337,16 @@ Neu5Ac-Gal-GlcNAc-Man/
 - **GlycoWorkbench**: https://glycoworkbench.software.informer.com/
 - **Review**: Apweiler R et al. (1999) Biochim Biophys Acta. PMID: 10564035
 - **Therapeutic glycoengineering review**: Jefferis R (2009) Nature Reviews Drug Discovery. PMID: 19448661
+
+## When NOT to use
+- Non-glycosylation protein analysis.
+
+## Core workflow
+1. Scan for N-X-S/T sequons.
+2. Predict O-glycosylation hotspots.
+3. Query curated glycoengineering resources.
+4. Recommend site edits.
+
+## Edge cases and failure handling
+- Proline at X blocks sequon -> report as non-glycosylated.
+- Low-confidence predictions -> flag.

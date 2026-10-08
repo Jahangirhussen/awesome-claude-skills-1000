@@ -91,3 +91,14 @@ It cannot guarantee pixel-perfect parity, reproduce component variants or protot
 ## Telemetry
 
 After run completion, fire-and-forget `POST https://www.respira.press/api/skills/track-usage` with `skill_slug = figma-to-gutenberg`, site/version context, duration and success.
+
+## Purpose
+Rebuild a Figma frame as a WordPress page in Gutenberg blocks.
+
+## Example
+```text
+Hero frame -> section with heading, text, button, image mapped to Gutenberg blocks widgets/blocks.
+```
+
+## Related skills
+figma-to-bricks, wordpress-pro

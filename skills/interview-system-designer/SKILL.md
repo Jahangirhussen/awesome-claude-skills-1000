@@ -57,3 +57,14 @@ python3 scripts/interview_planner.py --role "Product Manager" --level mid --json
 2. Require evidence for each score recommendation.
 3. Use the same baseline rubric across comparable roles.
 4. Revisit loop design based on quality-of-hire outcomes.
+
+## When NOT to use
+- Candidate screening of individuals.
+
+## Inputs
+Role, level, competencies.
+
+## Example
+```text
+Backend L5: system design + coding + behavioural rubric.
+```

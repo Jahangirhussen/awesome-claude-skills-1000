@@ -86,3 +86,17 @@ tauri build, release, signing, packaging, distribution
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Guide Tauri v2 production builds, code signing and distribution artifacts.
+
+## Inputs
+Tauri v2 project, target OS, signing certificates or keys.
+
+## Example
+```text
+Build release for Windows, sign installer, verify the MSI/NSIS artifact installs and launches.
+```
+
+## Related skills
+tauri-app-updater, tauri-config, tauri-security

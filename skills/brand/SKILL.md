@@ -95,3 +95,23 @@ node scripts/inject-brand-context.cjs --json | head -20
 1. Parse subcommand from `$ARGUMENTS` (first word)
 2. Load corresponding `references/{subcommand}.md`
 3. Execute with remaining arguments
+
+## Purpose
+Brand voice, visual identity, messaging frameworks and consistency.
+
+## When NOT to use
+- Logo creation only (logo-design).
+
+## Inputs
+Brand guidelines or the brand brief.
+
+## Edge cases and failure handling
+- No guidelines -> derive a minimal voice guide and confirm.
+
+## Example
+```text
+Rewrite product page copy in "plain, confident, no hype" voice.
+```
+
+## Related skills
+brand-guidelines, brand-voice

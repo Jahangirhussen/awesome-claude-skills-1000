@@ -81,3 +81,20 @@ Tell the user:
 - Each working in an isolated worktree
 - Monitor with `/hub:hub-status`
 - Evaluate when done with `/hub:eval`
+
+## Purpose
+Launch parallel subagents in isolated git worktrees to compete on the session task.
+
+## When NOT to use
+- Single-agent tasks.
+
+## Inputs
+Active AgentHub session.
+
+## Edge cases and failure handling
+- Worktree creation fails -> clean stale worktrees.
+
+## Example
+```text
+/hub:spawn --agents 3
+```

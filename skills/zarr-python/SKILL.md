@@ -256,3 +256,20 @@ available, fetch https://arxiv.org/abs/2609.00065 (or
 http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take
 the author list, year, and version from that record. If the record lists a journal reference
 or publisher DOI, cite the published version instead.
+
+## When to use
+Working with large chunked N-D arrays (cloud storage, parallel I/O).
+
+## When NOT to use
+- Small in-memory arrays (NumPy is enough).
+
+## Inputs
+Array shape, chunking needs, storage backend.
+
+## Validation
+- Round-trip read equals written data; chunk sizes suit access pattern.
+
+## Example
+```text
+z = zarr.open("data.zarr", mode="w", shape=(10000,10000), chunks=(1000,1000), dtype="f4")
+```

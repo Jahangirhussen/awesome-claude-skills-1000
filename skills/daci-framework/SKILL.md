@@ -72,3 +72,6 @@ Stop rule: ask only the 2-3 that most change the output. If the user says "just 
 
 - Productside DACI guidance for product teams
 - Inspired by the DACI framework used at Intuit and other product-led organizations
+
+## Validation
+- One Driver and one Approver named; decision deadline set.

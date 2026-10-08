@@ -83,3 +83,14 @@ Covers static design quality, AI-slop, WCAG contrast, and design-token complianc
 
 **Last Updated:** June 2026
 **Version:** 2.2.0
+
+## Purpose
+Audit UI/UX for quality, AI slop and accessibility.
+
+## When NOT to use
+- Building the design.
+
+## Example
+```text
+Flags generic gradient hero and low contrast text.
+```

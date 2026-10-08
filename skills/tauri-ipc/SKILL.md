@@ -68,3 +68,17 @@ tauri ipc, invoke, tauri command, type safety, tauri-specta
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Guide Tauri v2 IPC: frontend `invoke` calls, Rust commands and type-safe bindings.
+
+## Inputs
+A Tauri v2 project (Rust backend + web frontend).
+
+## Example
+```text
+Define `#[tauri::command] fn greet(name: String)`, register it, call `invoke("greet", {name})`.
+```
+
+## Related skills
+tauri-config, tauri-security, tauri-ipc, tauri-build

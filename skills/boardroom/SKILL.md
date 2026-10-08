@@ -132,3 +132,26 @@ If advisors see each other's positions before forming their own, they anchor. Ph
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Six-phase multi-role C-suite deliberation producing a board memo.
+
+## When to use
+A cross-functional decision needs several executive viewpoints.
+
+## When NOT to use
+- Single-role questions (use that advisor).
+
+## Inputs
+The brief.
+
+## Edge cases and failure handling
+- Roles agree too quickly -> run the critic pre-screen.
+
+## Validation
+- Phase 2 isolation kept; synthesis reflects dissent.
+
+## Example
+```text
+/cs:boardroom "enter EU market"
+```

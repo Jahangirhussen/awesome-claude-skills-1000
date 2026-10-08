@@ -69,3 +69,20 @@ tauri mobile, android, ios, bundle id, debugging
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Guide Tauri v2 mobile setup, debugging and bundle identifiers.
+
+## Inputs
+Tauri v2 project, Android/iOS toolchains.
+
+## Validation
+- App builds and runs on an emulator/simulator; bundle identifier matches store configuration.
+
+## Related skills
+tauri-build, tauri-config
+
+## Example
+```text
+Run `tauri android init`, set the bundle identifier in `tauri.conf.json`, run `tauri android dev` on an emulator.
+```

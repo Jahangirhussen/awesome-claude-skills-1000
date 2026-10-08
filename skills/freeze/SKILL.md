@@ -99,3 +99,20 @@ Founders have authority. Without an explicit lock + log, every wobble produces a
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Lock a strategic decision for a cooldown period to prevent impulse reversal.
+
+## When NOT to use
+- Reversible low-stakes choices.
+
+## Inputs
+Decision text and cooldown days.
+
+## Edge cases and failure handling
+- Real new information arrives -> record it and require an explicit override.
+
+## Example
+```text
+/cs:freeze "no price change" 30
+```

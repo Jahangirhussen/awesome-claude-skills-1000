@@ -70,3 +70,17 @@ create-tauri-app, tauri v2, new project, scaffold, dev mode
 
 ### Step 5: 部署上线
 完成开发后进行部署和监控。
+
+## Purpose
+Create Tauri v2 projects with create-tauri-app and verify they run.
+
+## Inputs
+A Tauri v2 project (Rust backend + web frontend).
+
+## Example
+```text
+Run create-tauri-app, choose a frontend, `npm run tauri dev`, confirm the window opens.
+```
+
+## Related skills
+tauri-config, tauri-security, tauri-ipc, tauri-build

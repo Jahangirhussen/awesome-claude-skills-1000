@@ -145,3 +145,18 @@ applies to its items — strong matches only, at most 2 items, URLs
 copied verbatim and only ever under `https://academy.claude.com/`.
 The catalog can include gated courses, so when you recommend an item
 with `visibility: "gated"`, mention that it needs an Academy sign-in.
+
+## When NOT to use
+- Questions unrelated to using Claude products.
+
+## Inputs
+The user's question about using Claude.
+
+## Edge cases and failure handling
+- No matching course -> answer directly.
+
+## Validation
+- Recommended course matches the user's goal and level.
+
+## Output requirements
+Answer plus matching course/tutorial recommendation.

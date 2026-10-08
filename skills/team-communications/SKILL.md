@@ -65,3 +65,20 @@ If the user hasn't connected Slack, Gmail, Drive, or Calendar, don't stall. Ask 
 | `project-management/meeting-analyzer` | Meeting insights can feed into 3P updates and status reports |
 | `project-management/confluence-expert` | Publish comms as Confluence pages for permanent record |
 | `marketing-skill/content-production` | External comms — use for public-facing content, not internal |
+
+## Purpose
+Write internal communications: 3P updates, newsletters, FAQs.
+
+## When NOT to use
+- External PR.
+
+## Edge cases and failure handling
+- Sensitive news -> route through leadership review.
+
+## Validation
+- Message states what, why, impact and next step.
+
+## Example
+```text
+3P: Progress, Plans, Problems in under 200 words.
+```

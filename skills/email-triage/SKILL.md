@@ -112,3 +112,20 @@ Action buckets:
 - **Don't archive instead of unsubscribing.** Recurring senders compound — kill the source.
 - **Process in batches.** Constant inbox checking destroys focus more than email itself.
 - **Inbox is not a to-do list.** Move action items to a real task tool.
+
+## Purpose
+Classify emails into reply now/later, archive, delete, unsubscribe.
+
+## When to use
+A batch of emails needs triage.
+
+## When NOT to use
+- Drafting replies.
+
+## Validation
+- Each email has exactly one category.
+
+## Example
+```text
+20 emails -> 5 reply now, 8 archive, 4 unsubscribe candidates.
+```

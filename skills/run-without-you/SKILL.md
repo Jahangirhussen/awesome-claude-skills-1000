@@ -76,3 +76,23 @@ See [`../../references/loops-and-workflows.md`](../../references/loops-and-workf
 - `scripts/deployment_builder.py` — POST /v1/deployments payload (+ test-run curl).
 - `scripts/cron_validator.py` — 5-field cron + IANA tz + DST note.
 - `scripts/next_directions_writer.py` — write/refresh NEXT-DIRECTIONS.md.
+
+## Purpose
+Phase 4 of a Claude Managed Agent: schedule it (cron), or trigger by events.
+
+## When NOT to use
+- Before the agent passes grading.
+
+## Inputs
+A graded agent, schedule or event trigger.
+
+## Edge cases and failure handling
+- Invalid cron -> reject with an example.
+
+## Output requirements
+Deployment config and a dry-run result.
+
+## Example
+```text
+0 9 * * 1 -> weekly report agent.
+```

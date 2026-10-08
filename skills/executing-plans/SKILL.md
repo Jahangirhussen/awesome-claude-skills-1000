@@ -62,3 +62,25 @@ After all tasks complete and verified:
 - Reference skills when plan says to
 - Stop when blocked, don't guess
 - Never start implementation on main/master branch without explicit user consent
+
+## When to use
+A written implementation plan exists and should be executed with review checkpoints, often in a separate session.
+
+## When NOT to use
+- No plan exists -> writing-plans.
+- Plan is incomplete or contradictory.
+
+## Inputs
+The plan file.
+
+## Edge cases and failure handling
+- Plan step is blocked -> stop and ask rather than guess.
+- Review finds plan gaps -> raise before executing.
+
+## Example
+```text
+Plan with 6 tasks -> review -> do tasks 1-3 with checks -> report -> continue.
+```
+
+## Related skills
+writing-plans, subagent-driven-development

@@ -45,3 +45,30 @@ Full matrix in `../chief-of-staff/SKILL.md` and `../chief-of-staff/references/ro
 - `../../../c-level-agents/` — 13 cs-* persona agents + 21 `/cs:*` slash commands on top of these skills
 - `../../executive-mentor/` — adversarial `/em:*` critic commands
 - `../../CLAUDE.md` — full architecture diagram and integration guide
+
+## When NOT to use
+- Detailed advisor work (open the specific advisor skill).
+- Non-executive tasks.
+
+## Inputs
+The executive question or decision.
+
+## Core workflow
+1. Match the request to the routing quick reference.
+2. Open the single advisor skill that fits (ceo, cfo, cto, cmo, ...).
+3. Use orchestration skills only for cross-functional decisions.
+
+## Edge cases and failure handling
+- Multiple roles fit -> start with the one owning the decision, consult others briefly.
+- Needs company data not available -> list the data required.
+
+## Validation
+- Advice references the company's actual numbers/context; recommendation, risks and next steps are explicit.
+
+## Output requirements
+Advisor recommendation with rationale, risks and next steps.
+
+## Example
+```text
+"Should we raise prices?" -> cfo-advisor + cmo-advisor + pricing-strategy.
+```

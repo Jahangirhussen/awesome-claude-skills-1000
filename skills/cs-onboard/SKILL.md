@@ -106,3 +106,20 @@ Update the context file, refresh timestamp, reset to `fresh`.
 ## References
 - `templates/company-context-template.md` — blank template for output
 - `references/interview-guide.md` — deep interview craft: probes, red flags, handling reluctant founders
+
+## When NOT to use
+- Company context already captured (use update).
+
+## Inputs
+Founder answers to the seven-dimension interview.
+
+## Edge cases and failure handling
+- Skipped dimension -> mark unknown, revisit later.
+
+## Validation
+- Context file written with all seven dimensions.
+
+## Example
+```text
+/cs:setup -> interview -> ~/.claude/company-context.md
+```

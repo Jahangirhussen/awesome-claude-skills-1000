@@ -155,3 +155,30 @@ You know you've been avoiding a hard call if:
 Every month you wait, the problem compounds. The co-founder who's not working out becomes more entrenched. The product line that needs to die consumes more resources. The person who needs to be let go affects the people around them.
 
 Make the call. Make it clearly. Make it with dignity.
+
+## Purpose
+Structured pass for decisions where every option is painful (10/10/10, regret minimisation, stakeholder impact).
+
+## When to use
+A founder faces a decision such as a layoff, shutdown or pivot with no good options.
+
+## When NOT to use
+- Routine decisions -> decide.
+- Legal or medical decisions that need professionals.
+
+## Inputs
+The decision, options, constraints, stakeholders.
+
+## Validation
+- Each option was run through reversibility, 10/10/10, stakeholder and pre-announcement tests; a recommendation and its cost are explicit.
+
+## Output requirements
+Recommendation, the price of it, and the communication plan.
+
+## Example
+```text
+Cut 20% staff vs raise a bridge: reversibility, 10 minutes/months/years, who is affected, how it reads announced.
+```
+
+## Related skills
+decide, executive-mentor, founder-coach

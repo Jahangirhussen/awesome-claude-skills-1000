@@ -72,3 +72,19 @@ python3 scripts/performance_profiler.py /path/to/project --large-file-threshold-
 - [references/profiling-recipes.md](references/profiling-recipes.md) — Node.js/Python/Go profiling commands, flamegraph generation, heap snapshots
 - [references/optimization-playbook.md](references/optimization-playbook.md) — before/after measurement template, quick-win optimization checklist (DB/Node/bundle/API), common pitfalls, best practices
 
+## When NOT to use
+- Front-end browser performance (use web performance skills).
+
+## Inputs
+Runtime and a reproducible workload.
+
+## Core workflow
+1. Reproduce the slow path.
+2. Profile CPU, memory, I/O.
+3. Rank bottlenecks.
+4. Fix and re-profile.
+
+## Example
+```text
+Node API p95 400ms -> flame graph shows JSON parsing.
+```

@@ -124,3 +124,27 @@ If previous reports exist in `test-reports/`:
 - Report destination confirmation
 - Trend comparison (if historical data available)
 - Next action recommendation (fix failures or celebrate green)
+
+## Purpose
+Generate a test report: results summary, failures, flaky tests, trends.
+
+## When to use
+The user asks for a test report, results summary or test status.
+
+## When NOT to use
+- Running specific tests only.
+- Coverage analysis -> coverage.
+
+## Inputs
+Test results (run tests if needed), destination for the report.
+
+## Validation
+- Counts match the raw results; failures link to messages; report saved where expected.
+
+## Example
+```text
+Playwright run 120 passed, 3 failed, 2 flaky -> report with failure details.
+```
+
+## Related skills
+coverage, test-master

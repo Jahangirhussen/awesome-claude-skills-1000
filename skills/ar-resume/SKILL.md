@@ -75,3 +75,31 @@ How would you like to continue?
 
 If the user picks loop, hand off to `/ar:loop` with the experiment pre-selected.
 If single, hand off to `/ar:run`.
+
+## Purpose
+Resume a paused autoresearch experiment: checkout branch, read history, continue iterating.
+
+## When to use
+The user runs /ar:ar-resume or asks to continue an experiment.
+
+## When NOT to use
+- Starting a new experiment.
+- Experiment already finished.
+
+## Inputs
+Experiment id (list if unknown).
+
+## Edge cases and failure handling
+- Branch missing -> list experiments and ask which to resume.
+- Uncommitted changes on the current branch -> stash or commit first.
+
+## Validation
+- Correct branch checked out; results history loaded; current state reported before continuing.
+
+## Example
+```text
+`/ar:ar-resume engineering/api-speed` -> checkout, read results, report best score, ask next action.
+```
+
+## Related skills
+ar-status, autoresearch

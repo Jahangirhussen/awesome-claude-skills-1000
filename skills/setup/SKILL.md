@@ -75,3 +75,20 @@ Report to the user:
 - Experiment path and branch name
 - Whether the eval command worked and the baseline metric
 - Suggest: "Run `/ar:run {domain}/{name}` to start iterating, or `/ar:loop {domain}/{name}` for autonomous mode."
+
+## Purpose
+Interactively set up an autoresearch experiment.
+
+## When NOT to use
+- Resuming an experiment.
+
+## Inputs
+Domain, target file, eval command, metric, direction.
+
+## Edge cases and failure handling
+- Eval command fails -> fix before starting.
+
+## Example
+```text
+Metric: p95_ms, direction: lower, eval: ./bench.sh
+```

@@ -71,3 +71,34 @@ and the outcome section of
 - `scripts/outcome_builder.py` — user.define_outcome payload (rubric required, cap 1..20).
 - `scripts/verdict_reader.py` — grader result → next move.
 - `scripts/eval_scaffold.py` — held-back cases + parallel run plan (≤25 threads).
+
+## Purpose
+Phase 3 of building a Claude Managed Agent: bounded grade-and-iterate loop against a rubric.
+
+## When to use
+A managed agent has an outcome rubric and needs scored iterations.
+
+## When NOT to use
+- Earlier phases (definition, setup).
+- Open-ended tuning without a rubric.
+
+## Inputs
+Outcome rubric (markdown), agent version, grader verdicts.
+
+## Edge cases and failure handling
+- Verdict flat after iterations -> sharpen the rubric or change approach.
+- Budget reached -> stop and report best version.
+
+## Validation
+- Each iteration records verdict and decision; stop rule respected.
+
+## Output requirements
+Final verdict, iteration log, recommended next move.
+
+## Example
+```text
+Rubric 7/10 -> sharpen instructions -> rerun -> 9/10 -> stop.
+```
+
+## Related skills
+skill-creator, eval

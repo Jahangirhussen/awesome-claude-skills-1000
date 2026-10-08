@@ -117,3 +117,31 @@ User question
 **Version:** 1.0.0
 **Last Updated:** 2026-05-12
 **Status:** Production Ready
+
+## Purpose
+Founder-mode executive team: 13 C-suite agents and 21 /cs:* commands.
+
+## When to use
+A founder wants executive-level review, office hours or board prep from role agents.
+
+## When NOT to use
+- Operational coding tasks.
+- Legal or financial advice requiring professionals.
+
+## Inputs
+The decision or plan and relevant company data.
+
+## Edge cases and failure handling
+- Role agents disagree -> present both with the trade-off.
+- No company data -> request the minimum numbers.
+
+## Validation
+- Advice cites the company data given; risks and next steps explicit.
+
+## Example
+```text
+/cs:cfo-review on a hiring plan -> runway impact and conditions.
+```
+
+## Related skills
+c-level-skills, office-hours, board-prep

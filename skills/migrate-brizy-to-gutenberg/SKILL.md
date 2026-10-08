@@ -263,3 +263,12 @@ Never block user flow on telemetry failure.
 
 Built by Respira Team
 https://respira.press/skills/migrate-brizy-to-gutenberg
+
+## When NOT to use
+- Sites not using Brizy.
+- Content-only edits.
+
+## Example
+```text
+Brizy hero row -> Group block with Heading, Paragraph, Buttons.
+```

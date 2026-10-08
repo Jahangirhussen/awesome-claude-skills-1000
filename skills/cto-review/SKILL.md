@@ -115,3 +115,26 @@ python ../../../c-level-advisor/skills/cto-advisor/scripts/team_scaling_calculat
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+Architecture and scaling review: tech debt, scaling cliffs, team scaling, build-vs-buy.
+
+## When to use
+Planning technical roadmap or hiring.
+
+## When NOT to use
+- Code review.
+
+## Inputs
+Plan and architecture.
+
+## Edge cases and failure handling
+- No architecture docs -> request a diagram first.
+
+## Validation
+- Six questions answered with evidence.
+
+## Example
+```text
+Monolith at 10k users -> scaling cliff at 100k.
+```

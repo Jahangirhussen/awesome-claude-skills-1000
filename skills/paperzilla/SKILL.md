@@ -157,3 +157,18 @@ export PZ_API_URL="https://paperzilla.ai"
 - Docs: https://docs.paperzilla.ai/guides/cli
 - Quickstart: https://docs.paperzilla.ai/guides/cli-getting-started
 - Repo: https://github.com/paperzilla-ai/pz
+
+## Purpose
+Chat with an agent about Paperzilla projects, recommendations and canonical papers.
+
+## When NOT to use
+- Searching outside Paperzilla.
+
+## Inputs
+Project and question.
+
+## Edge cases and failure handling
+- No access token -> explain setup.
+
+## Validation
+- Papers cited exist in the project.

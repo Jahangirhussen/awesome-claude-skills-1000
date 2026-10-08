@@ -165,3 +165,18 @@ Rituals are the delivery mechanism for culture. What works at 10 people breaks a
 ## Detailed References
 - `references/culture-playbook.md` — Netflix analysis, survey design, ritual examples, M&A playbook
 - `templates/culture-code-template.md` — Culture code document template
+
+## Purpose
+Build, measure and evolve company culture as operational behaviour.
+
+## When to use
+Defining values, rituals, culture metrics or fixing culture drift.
+
+## Inputs
+Company stage, current behaviours, survey data.
+
+## Edge cases and failure handling
+- Values that are not enforced -> turn into observable behaviours.
+
+## Validation
+- Each value has behaviours, a metric and a leader action.

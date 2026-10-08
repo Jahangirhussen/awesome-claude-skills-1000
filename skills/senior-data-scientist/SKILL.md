@@ -1,6 +1,6 @@
 ---
 name: senior-data-scientist
-description: 
+description: Data science for production: experiment design, feature engineering, modeling, evaluation and deployment handoff. Use for end-to-end analysis and ML modelling with statistics. Not for BI dashboards (erp-saas-analytics-visualization) or pure data engineering pipelines.
 license: MIT + Commons Clause
 metadata:
   version: 1.1.0
@@ -90,3 +90,21 @@ Load the reference that matches the task — keep this file lean and pull detail
 | `senior-architect` | Model serving architecture reviewed for scalability; data platform design aligned with training infrastructure | Architecture specs --> deployment topology --> monitoring dashboards |
 | `senior-backend` | Model inference endpoints integrated into backend services; API contracts defined for prediction requests | REST/gRPC model API --> backend service layer --> client applications |
 | `senior-devops` | CI/CD pipelines extended for model retraining triggers; containerized model images deployed via infrastructure-as-code | Docker images --> Kubernetes manifests --> production clusters |
+
+## Purpose
+Senior data-science guidance from problem framing to evaluated model.
+
+## When NOT to use
+- BI dashboards or KPI reporting.
+- ETL/pipeline-only tasks.
+
+## Validation
+- Train/validation split without leakage, baseline compared, metrics suited to the problem, results reproducible.
+
+## Example
+```text
+Churn prediction: frame target, build features from usage, split by time, compare to logistic baseline, report AUC and calibration.
+```
+
+## Related skills
+senior-ml-engineer, statistical-analysis, scikit-learn

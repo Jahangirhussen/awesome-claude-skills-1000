@@ -234,3 +234,15 @@ The company OS is the connective tissue. Every other role depends on it:
 ## Detailed References
 - `references/os-comparison.md` — EOS vs Scaling Up vs OKRs vs Holacracy vs hybrid
 - `references/implementation-guide.md` — 90-day implementation plan
+
+## Purpose
+Meta-framework for how a company runs (operating system, rhythm, accountability).
+
+## When to use
+Choosing or tuning an operating system such as EOS.
+
+## When NOT to use
+- Single-function questions.
+
+## Inputs
+Company size, stage.

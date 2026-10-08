@@ -138,3 +138,9 @@ Save to `.tours/<persona>-<focus>.tour`.
 - Related: `engineering/pr-review-expert` — for automated PR review workflows
 - CodeTour extension: [microsoft/codetour](https://github.com/microsoft/codetour)
 - Real-world tours: [coder/code-server](https://github.com/coder/code-server/blob/main/.tours/contributing.tour)
+
+## Inputs
+Repo, persona, goals for the tour.
+
+## Output requirements
+A valid `.tour` file with real file and line references.

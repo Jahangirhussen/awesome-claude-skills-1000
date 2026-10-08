@@ -108,3 +108,23 @@ If confirmed, run `/hub:merge`. If declined, inform the user they can:
 - **Stop on failure** — if any step fails, report the error and stop
 - **User confirms merge** — never auto-merge without asking
 - **Template is optional** — without `--template`, agents use the default dispatch prompt from `/hub:spawn`
+
+## Purpose
+Run the full AgentHub lifecycle in one command: init, baseline, spawn, eval, merge.
+
+## When to use
+The user wants a one-shot multi-agent run.
+
+## When NOT to use
+- Step-by-step control.
+
+## Inputs
+Task, agents, metric.
+
+## Validation
+- Winner merged and worktrees cleaned.
+
+## Example
+```text
+/hub:run "optimize query" --agents 3
+```

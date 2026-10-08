@@ -85,3 +85,12 @@ Load the reference that matches the task — keep this file lean and pull detail
 | **ab-test-setup** | A/B test prompt variants in production with statistical rigor before full rollout | Prompt candidates → traffic split → scoring comparison → winner promotion |
 | **llm-gateway-design** | Gateway handles prompt routing, versioning, and model fallback at the infrastructure layer | Versioned prompts → gateway config → model routing → response logging |
 | **code-review-automation** | Code review prompts are high-frequency production prompts that benefit from this toolkit's testing framework | Review criteria → prompt design → test suite → deployed reviewer prompt |
+
+## Purpose
+Build, test, version and evaluate prompts.
+
+## When NOT to use
+- Model fine-tuning.
+
+## Validation
+- Prompts pass regression cases.

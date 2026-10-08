@@ -437,3 +437,15 @@ export function addTrackingParams(html: string, params: TrackingParams): string 
 - **Dark mode media queries** — must use `!important` to override inline styles
 - **Missing plain text** — all major providers have a plain text field; always populate it
 - **Transactional vs marketing** — use separate sending domains/IPs to protect deliverability
+
+## When NOT to use
+- Marketing newsletter copywriting (email-sequence/copywriting).
+- Email deliverability strategy only.
+
+## Inputs
+Email types needed, provider, brand tokens, languages.
+
+## Example
+```text
+Welcome email: React Email template -> Resend send -> preview server check.
+```

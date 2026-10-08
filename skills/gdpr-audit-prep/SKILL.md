@@ -163,3 +163,20 @@ python ../../skills/compliance-os/scripts/cross_framework_mapper.py program.json
 ---
 
 **Version:** 1.0.0
+
+## Purpose
+GDPR audit readiness via article-cited six-question interrogation.
+
+## When NOT to use
+- Legal advice.
+
+## Inputs
+Processing scope and records.
+
+## Edge cases and failure handling
+- Evidence missing -> record as gap.
+
+## Example
+```text
+Art. 30 records of processing present? Lawful basis per activity?
+```

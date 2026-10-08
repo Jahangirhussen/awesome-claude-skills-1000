@@ -60,3 +60,32 @@ python deploy_ad.py --live
 
 - Generating creative assets → use arcads-video or arcads-image-ad
 - Creating campaigns from scratch → user must provide ad set ID
+
+## Purpose
+Deploy finished creatives as live Meta (Facebook/Instagram) ads through the Marketing API.
+
+## Inputs
+META_ACCESS_TOKEN and META_AD_ACCOUNT_ID in `.env`, finished creatives, targeting and budget.
+
+## Core workflow
+1. Optional research: top ads by ROAS and competitor ads.
+2. Write copy variants.
+3. Deploy campaign, ad set and ads via the API following the Critical Rules.
+
+## Edge cases and failure handling
+- Token expired or permission missing -> stop and report the exact API error.
+- Policy rejection -> revise copy and resubmit.
+
+## Validation
+- API returns ids; campaign visible in Ads Manager in paused/active state as intended; spend limits set.
+
+## Output requirements
+Campaign, ad set and ad ids with status.
+
+## Example
+```text
+"Publish this video as a Facebook ad, $20/day" -> create campaign -> ad set -> ad -> report ids.
+```
+
+## Related skills
+arcads-image-ad, arcads-video, paid-ads
