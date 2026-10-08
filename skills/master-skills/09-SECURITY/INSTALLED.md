@@ -1,0 +1,62 @@
+# Installed skills in 09-SECURITY
+
+## general
+- `ai-security` - This skill should be used when the user asks to "scan AI systems for security threats", "check for prompt inje
+- `apple-hig-expert` - Audits and designs iOS/macOS/watchOS/visionOS interfaces against the Apple Human Interface Guidelines, includi
+- `atlassian-admin` - Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), 
+- `behuman` - Use when the user wants more human-like AI responses — less robotic, less listy, more authentic. Triggers: 'be
+- `bids` - Use this skill when working with Brain Imaging Data Structure (BIDS) datasets: organizing neuroscience and bio
+- `ccpa-cpra-privacy-expert` - CCPA and CPRA California privacy compliance. Use for CCPA/CPRA readiness assessments, personal information dat
+- `ciso-advisor` - Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 
+- `ciso-review` - /cs:ciso-review <plan> — Risk-paranoid interrogation of any plan that touches data, compliance, or production 
+- `cloud-security` - Cloud posture security across AWS, Azure, and GCP — IAM least privilege, public exposure, encryption, logging 
+- `compliance-os` - Compliance OS — meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COMPUTE cross-f
+- `compliance-readiness` - /cs:compliance-readiness <program> — Multi-framework compliance officer 6-question forcing interrogation of an
+- `contract-and-proposal-writer` - Generate professional, jurisdiction-aware business documents: freelance contracts, project proposals, SOWs, ND
+- `dependency-auditor` - Scan project dependencies for vulnerabilities, license issues, and upgrade opportunities across Python, Node.j
+- `dora-compliance-expert` - DORA (EU 2022/2554) digital operational resilience compliance for financial entities, covering all 5 pillars. 
+- `dpia-assessment` - GDPR Art. 35 Data Protection Impact Assessment with threshold checking, risk registers, and EDPB criteria scor
+- `env-secrets-manager` - Manage environment-variable hygiene and secrets safety across local development and production. Practical audi
+- `fda-consultant-specialist` - FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QMSR (21
+- `firebase-auth-manager` - Use when managing Firebase Authentication sign-in providers, authorized domains, or auth configuration via CLI
+- `gdpr-audit-prep` - /cs:gdpr-audit-prep <scope> — GDPR audit 6-question Article-cited forcing interrogation. Use before annual int
+- `gdpr-dsgvo-expert` - GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, 
+- `incident-response` - Use when a security incident has been detected or declared and needs classification, triage, escalation path d
+- `information-security-manager-iso27001` - ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and MedTech companies. Use when desi
+- `infrastructure-compliance-auditor` - Cross-framework infrastructure security audit across cloud, network, and CI/CD. Use for infrastructure and clo
+- `isms-audit-expert` - Information Security Management System (ISMS) audit expert for ISO 27001 compliance verification, security con
+- `iso27001-audit-prep` - /cs:iso27001-audit-prep <scope> — ISO 27001 ISMS audit readiness 6-question forcing interrogation. Use before 
+- `iso42001-specialist` - ISO/IEC 42001:2023 AI Management System (AIMS) specialist for compliance teams running internal audits. Three 
+- `legal-red-team` - Adversarial verification for AI-generated legal content. Use when fact-checking legal documents, validating ci
+- `mdr-745-specialist` - EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evi
+- `nestjs-expert` - Creates and configures NestJS modules, controllers, services, DTOs, guards, and interceptors for enterprise-gr
+- `nis2-directive-specialist` - NIS2 Directive (EU 2022/2555) compliance for critical infrastructure entities, covering the 10 minimum securit
+- `nist-csf-specialist` - NIST Cybersecurity Framework 2.0 implementation, assessment, and compliance management. Use for CSF 2.0 gap an
+- `pci-dss-specialist` - PCI DSS v4.0 payment card data security compliance, assessment, and implementation. Use for PCI DSS scoping, c
+- `pr-review-expert` - Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or ass
+- `privacy-compliance` - Multi-regulation privacy compliance navigator. Use for GDPR, CCPA, LGPD, POPIA, PIPEDA, PDPA, Privacy Act, PIP
+- `privacy-notice-generator` - Draft GDPR-compliant privacy notices for EU/EEA jurisdictions. Supports 6 notice types, 9 jurisdictions, multi
+- `quality-manager-qmr` - Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system 
+- `ra-qm-skills` - Router/index for the 15 regulatory & quality-management skills bundled in this plugin (ISO 13485 QMS, EU MDR 2
+- `red-team` - This skill should be used when the user asks to "plan a red team engagement", "scope a penetration test", "des
+- `root-path-discovery-security-audit` - Use on an already-authorized server/SSH/cPanel/local env to auto-discover the filesystem/document root and aud
+- `secrets-vault-manager` - Use when the user asks to set up secret management infrastructure, integrate HashiCorp Vault, configure cloud 
+- `secure-code-guardian` - Use when implementing authentication/authorization, securing user input, or preventing OWASP Top 10 vulnerabil
+- `security-baseline` - Establish a security baseline for a website or web app. Use this skill when configuring HTTPS and TLS, setting
+- `security-guidance` - PreToolUse security-anti-pattern hook for Claude Code. Catches 12 common security risks (command injection, XS
+- `security-pen-testing` - Use when the user asks to perform security audits, penetration testing, vulnerability scanning, OWASP Top 10 c
+- `security-reviewer` - Identifies security vulnerabilities, generates structured audit reports with severity ratings, and provides ac
+- `senior-secops` - SecOps for application security, vulnerability management, compliance, and secure development. Use when implem
+- `senior-security` - STRIDE threat modeling, DREAD risk scoring, secret detection, and secure architecture design. Use when conduct
+- `ship-gate` - Pre-production audit that scans a codebase for security, database, deployment, code quality, AI/LLM, dependenc
+- `skill-security-auditor` - Security audit and vulnerability scanner for AI agent skills before installation. Use when: (1) evaluating a s
+- `soc2-audit-prep` - /cs:soc2-audit-prep <scope> — SOC 2 Type II readiness 6-question forcing interrogation. Observation-period foc
+- `soc2-compliance` - Use when the user asks to prepare for SOC 2 audits, map Trust Service Criteria, build control matrices, collec
+- `soc2-compliance-expert` - SOC 2 Type I and Type II compliance management against the Trust Services Criteria. Use for SOC 2 readiness as
+- `tauri-security` - Guidance for Tauri v2 capabilities, scope configuration, and ACL-based permission control.
+- `tech-stack-evaluator` - Evaluate and compare technology stacks with TCO analysis, security assessment, and ecosystem health scoring. U
+- `threat-detection` - This skill should be used when the user asks to "analyze logs for threats", "detect suspicious activity", "sca
+- `vpe-advisor` - VP of Engineering advisory for startups: delivery throughput (DORA 4 metrics + bottleneck identification), eng
+- `vpe-review` - /cs:vpe-review <plan> — Throughput-first VP of Engineering interrogation of any plan that touches delivery, en
+- `whistleblower-compliance` - Audit whistleblower systems and draft compliant reporting policies. Use when assessing or building whistleblow
+

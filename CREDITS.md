@@ -1,3 +1,12 @@
+# Credits and licenses
+
+This is a curated collection. Most skills come from open-source repositories; each skill folder keeps its own license/metadata. Sources used for this collection include borghei/Claude-Skills, VoltAgent/awesome-agent-skills, ComposioHQ/awesome-claude-skills, nurdamiron/claude-code-skills, aaron-he-zhu/seo-geo-claude-skills, attainmentlabs/ai-seo-skill, armaneker/claude-code-skills, obra/superpowers, mattpocock/skills, EveryInc/compound-engineering-plugin, Yeachan-Heo/oh-my-claudecode, OthmanAdi/planning-with-files, JuliusBrussee/caveman and others. Check each source's license before commercial reuse; ComposioHQ/awesome-claude-skills ships no repository-level LICENSE file.
+
+Original work by the curator: seo-master, master-auto-orchestrator, erp-saas-analytics-visualization, universal-development-planner, human-writing-mode, originality-guard, docs-pdf-clean-output, master-skills (index and organization).
+
+---
+## Previous credits (kept for attribution)
+
 # Credits & Licenses
 
 This repository is a **curated collection** of Claude Code Agent Skills gathered from multiple open-source projects. The collector/curator did not author the skills listed below — each remains the property of its original author under its original license.

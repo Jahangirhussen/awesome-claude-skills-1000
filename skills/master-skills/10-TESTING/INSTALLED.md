@@ -1,0 +1,66 @@
+# Installed skills in 10-TESTING
+
+## general
+- `ab-test-setup` - When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions "
+- `aeon` - This skill should be used for time series machine learning tasks including classification, regression, cluster
+- `analytical-method-validation` - Plan, execute, and document validation, verification, and transfer of analytical procedures under the governin
+- `andreessen` - Marc Andreessen-mode decision and productivity skill. A blunt, market-first operator that pressure-tests ideas
+- `api-test-suite-builder` - Use when the user asks to generate API tests, create integration test suites, test REST endpoints, or build co
+- `browserstack` - - Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser", "cloud testing", "browser
+- `capa-officer` - CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effecti
+- `ce-compound` - Document a solved problem as a durable repo learning. Use when verified work produced non-obvious reasoning ab
+- `ce-dogfood` - Hands-off, diff-scoped browser QA of the active branch: maps user flows, drives a real browser, autonomously f
+- `ce-sweep` - Sweep configured feedback sources (Slack, GitHub Issues; email experimental) for new items: acknowledge at sou
+- `ce-test-browser` - Run browser tests for pages affected by the current branch or PR. Use when asked to run or check browser tests
+- `ce-test-xcode` - Test iOS apps in a simulator with XcodeBuildMCP. Use when iOS changes need simulator evidence before handoff.
+- `ce-work` - Execute a plan or concrete work prompt end-to-end. Use when implementing from a plan document, a spec path, or
+- `chaos-engineer` - Designs chaos experiments, creates failure injection frameworks, and facilitates game day exercises for distri
+- `chaos-engineering` - Chaos engineering: hypothesis-driven fault injection to surface weakness before users do. Use when designing a
+- `coverage` - - Analyze test coverage gaps. Use when user says "test coverage", "what's not tested", "coverage gaps", "missi
+- `dossier` - Decision-grade entity research skill — produces a hypothesis-tested dossier on a specific company, person, non
+- `editorial-qa` - Pre-publish QA framework for content. Brief adherence, voice consistency, fact accuracy, structure and clarity
+- `flutter-integration-testing` - Use when writing Flutter integration/widget tests that verify real component interactions - covers widget test
+- `flutter-unit-testing` - Use when writing Flutter/Dart unit tests that actually catch bugs - covers Riverpod provider testing with Prov
+- `generate` - - Generate Playwright tests. Use when user says "write tests", "generate tests", "add tests for", "test this c
+- `grilling` - Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thin
+- `gtars` - Use Gtars for local genomic interval models and set algebra, overlaps and counts, consensus and coverage, toke
+- `hivemind` - Orchestrate free opencode workers from Claude Code to cut token costs. Use when delegating grunt work to a sin
+- `human-gate` - Runs the human-verification lane of an agent loop, and proves review happened before work is called done. Buil
+- `iso-standards-readiness` - Prepares and structurally reviews readiness evidence for ISO management-system and laboratory-competence stand
+- `migrate` - - Migrate from Cypress or Selenium to Playwright. Use when user mentions "cypress", "selenium", "migrate tests
+- `migrate-to-shoehorn` - Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, w
+- `monorepo-navigator` - Navigate, manage, and optimize monorepos. Covers Turborepo, Nx, pnpm workspaces, and Lerna. Cross-package impa
+- `opportunity-solution-tree` - Opportunity Solution Tree (Teresa Torres) mapping outcomes → opportunities → solutions → assumption tests. Use
+- `playwright-expert` - Use when writing E2E tests with Playwright, setting up test infrastructure, or debugging flaky browser tests. 
+- `playwright-pro` - End-to-end testing with Playwright: test generation, page objects, locator strategy, flaky- test diagnosis, vi
+- `playwright-pro` - Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, 
+- `pw-init` - - Set up Playwright in a project. Use when user says "set up playwright", "add e2e tests", "configure playwrig
+- `pw-review` - - Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests",
+- `pydeseq2` - Differential gene expression analysis for bulk RNA-seq with PyDESeq2, including formulaic designs, Wald tests,
+- `pysam` - Python/HTSlib workflows for genomic files. Use when reading, querying, filtering, or writing SAM/BAM/CRAM, VCF
+- `qa-browser-automation` - Browser-based QA combining Chrome MCP control with Python analysis tools. Use when performing browser QA testi
+- `qa-testing` - Run QA testing on a page, feature, or full site at one of three depth tiers (smoke, standard, full). Use this 
+- `qms-audit-expert` - ISO 13485 internal audit expertise for medical device QMS. Covers audit planning, execution, nonconformity cla
+- `ralph` - Self-referential loop until task completion with configurable verification reviewer
+- `roast` - Use when someone asks to roast an idea, pressure-test or stress-test an idea, validate a business idea, "conve
+- `scenario-war-room` - Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress test
+- `senior-qa` - Testing for React/Next.js with Jest, React Testing Library, and Playwright. Use when generating tests, writing
+- `setup-pre-commit` - Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use w
+- `simpy` - Build, inspect, test, and analyze bounded process-based discrete-event simulations with SimPy, including event
+- `skill-tester` - Validate, test, and score the quality of skills within the claude-skills ecosystem. Comprehensive meta-skill: 
+- `statsmodels` - Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA
+- `stress-test` - /em:stress-test — Business assumption stress testing. Use before betting on a plan whose core assumptions are 
+- `tdd` - Enforce test-driven development (write the test first, watch it fail, then make it pass) for production code, 
+- `tdd-guide` - Guide red-green-refactor TDD with test generation, coverage-gap analysis, and multi- framework support. Use wh
+- `test-driven-development` - Use when implementing any feature or bugfix, before writing implementation code
+- `test-failure-diagnosis` - Diagnose and fix failing tests. Failure classification, root-cause analysis (never retry blindly), then the re
+- `test-master` - Generates test files, creates mocking strategies, analyzes code coverage, designs test architectures, and prod
+- `test-scenarios` - Generate test scenario coverage from a feature spec — happy paths, edge cases, error handling, accessibility, 
+- `testrail` - - Sync tests with TestRail. Use when user mentions "testrail", "test management", "test cases", "test run", "s
+- `triage` - Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and
+- `usability-testing` - Plan and run usability tests on existing or prototype designs including test design, task scripts, moderation,
+- `verification-before-completion` - Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires runn
+- `verify` - Verify that a change really works before you claim completion
+- `webapp-testing` - Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend 
+- `what-if-oracle` - Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild ca
+
